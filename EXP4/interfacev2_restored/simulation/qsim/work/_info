@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/EXP4/interfacev2_restored/simulation/qsim
+Einterface_leds_botoes_v2
+Z1 w1580079431
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+Z11 8interfacev1.vho
+Z12 Finterfacev1.vho
+l0
+L38
+V0QRc<I1@P_6^<AS513Waz1
+!s100 JWfi5Bh6M8ol^Bj;QzDCc3
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1580079432
+!i10b 1
+Z15 !s108 1580079432.000000
+Z16 !s90 -work|work|interfacev1.vho|
+Z17 !s107 interfacev1.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 24 interface_leds_botoes_v2 0 22 0QRc<I1@P_6^<AS513Waz1
+l148
+L75
+VfI0h8<S6FcW6kPTZfEI?L0
+!s100 0Z[5EB[Q1N2X@ejP]m=SI0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Einterface_leds_botoes_v2_vhd_vec_tst
+Z20 w1580079429
+R8
+R9
+R0
+Z21 8Waveform4.vwf.vht
+Z22 FWaveform4.vwf.vht
+l0
+L31
+Vai1aYAmTWPgV]1RkUQFCE3
+!s100 TJJg9DeRJaaR3Z_[5R8O[3
+R13
+32
+Z23 !s110 1580079433
+!i10b 1
+Z24 !s108 1580079433.000000
+Z25 !s90 -work|work|Waveform4.vwf.vht|
+Z26 !s107 Waveform4.vwf.vht|
+!i113 1
+R18
+R19
+Ainterface_leds_botoes_v2_arch
+R8
+R9
+Z27 DEx4 work 36 interface_leds_botoes_v2_vhd_vec_tst 0 22 ai1aYAmTWPgV]1RkUQFCE3
+l66
+L33
+Z28 V:8hCHZ4UO3hbYhSj4GB8;1
+Z29 !s100 XoIaR>kLNOCgSE_;A=k753
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R18
+R19

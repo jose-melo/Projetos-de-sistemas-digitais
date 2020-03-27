@@ -1,0 +1,42 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qar
+Date:		Fri Mar 27 00:14:09 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/Projeto3-2/Formex.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qpf
+/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qsf
+/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/InterfaceMedidor.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/JogoReacao_v1.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/RNG.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/assignment_defaults.qdf
+/home/jose/Desktop/LabDig/Projeto3-2/comparador_7485.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/comparador_bcd.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/comparador_nbits.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/contador16bits_mod10.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/contador_162.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/contador_modm.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/controlador.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/controladorFinal.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/controladorJogo.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/geraPulse.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/gera_vaium.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/hexa7seg.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/interface_FSM_v4.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/interface_leds_botoes_v2.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/latch_sr.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/medidor_largura.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/mux2x1_nbits.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/mux4x1_nbits.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/registrador16bits.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/somador_4bits_estrutural.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/somador_completo.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/somador_decimal.vhd
+/home/jose/Desktop/LabDig/Projeto3-2/somador_decimal_4digitos.vhd
+	======= Total: 31 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

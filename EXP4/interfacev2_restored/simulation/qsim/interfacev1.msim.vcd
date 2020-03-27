@@ -1,0 +1,1006 @@
+$comment
+	File created using the following command:
+		vcd file interfacev1.msim.vcd -direction
+$end
+$date
+	Sun Jan 26 19:57:13 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module interface_leds_botoes_v2_vhd_vec_tst $end
+$var wire 1 ! clock $end
+$var wire 1 " db_clock $end
+$var wire 1 # db_erro $end
+$var wire 1 $ db_estimulo $end
+$var wire 1 % erro $end
+$var wire 1 & estado [3] $end
+$var wire 1 ' estado [2] $end
+$var wire 1 ( estado [1] $end
+$var wire 1 ) estado [0] $end
+$var wire 1 * estimulo $end
+$var wire 1 + iniciar $end
+$var wire 1 , ligado $end
+$var wire 1 - pronto $end
+$var wire 1 . pulso $end
+$var wire 1 / reset $end
+$var wire 1 0 resposta $end
+
+$scope module i1 $end
+$var wire 1 1 gnd $end
+$var wire 1 2 vcc $end
+$var wire 1 3 unknown $end
+$var wire 1 4 devoe $end
+$var wire 1 5 devclrn $end
+$var wire 1 6 devpor $end
+$var wire 1 7 ww_devoe $end
+$var wire 1 8 ww_devclrn $end
+$var wire 1 9 ww_devpor $end
+$var wire 1 : ww_clock $end
+$var wire 1 ; ww_reset $end
+$var wire 1 < ww_iniciar $end
+$var wire 1 = ww_resposta $end
+$var wire 1 > ww_ligado $end
+$var wire 1 ? ww_estimulo $end
+$var wire 1 @ ww_pulso $end
+$var wire 1 A ww_erro $end
+$var wire 1 B ww_pronto $end
+$var wire 1 C ww_estado [3] $end
+$var wire 1 D ww_estado [2] $end
+$var wire 1 E ww_estado [1] $end
+$var wire 1 F ww_estado [0] $end
+$var wire 1 G ww_db_clock $end
+$var wire 1 H ww_db_erro $end
+$var wire 1 I ww_db_estimulo $end
+$var wire 1 J \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 K \clock~input_o\ $end
+$var wire 1 L \clock~inputCLKENA0_outclk\ $end
+$var wire 1 M \resposta~input_o\ $end
+$var wire 1 N \iniciar~input_o\ $end
+$var wire 1 O \FSM|Ereg.INICIAL~0_combout\ $end
+$var wire 1 P \reset~input_o\ $end
+$var wire 1 Q \FSM|Ereg.INICIAL~q\ $end
+$var wire 1 R \CONT_INICIO|IQ[0]~3_combout\ $end
+$var wire 1 S \CONT_INICIO|IQ[0]~DUPLICATE_q\ $end
+$var wire 1 T \CONT_INICIO|IQ~2_combout\ $end
+$var wire 1 U \CONT_INICIO|IQ[1]~DUPLICATE_q\ $end
+$var wire 1 V \CONT_INICIO|IQ[2]~1_combout\ $end
+$var wire 1 W \CONT_INICIO|IQ[2]~DUPLICATE_q\ $end
+$var wire 1 X \CONT_INICIO|IQ~0_combout\ $end
+$var wire 1 Y \CONT_INICIO|Equal0~0_combout\ $end
+$var wire 1 Z \FSM|Selector0~0_combout\ $end
+$var wire 1 [ \FSM|Ereg.CONTANDO~q\ $end
+$var wire 1 \ \FSM|Selector2~0_combout\ $end
+$var wire 1 ] \FSM|Ereg.ESTIMULO~q\ $end
+$var wire 1 ^ \FSM|Eprox.ESPERA~0_combout\ $end
+$var wire 1 _ \FSM|Ereg.ESPERA~q\ $end
+$var wire 1 ` \FSM|WideNor0~combout\ $end
+$var wire 1 a \reset_interno~combout\ $end
+$var wire 1 b \LATCH|iq~combout\ $end
+$var wire 1 c \FSM|Ereg.ERRO~0_combout\ $end
+$var wire 1 d \FSM|Ereg.ERRO~q\ $end
+$var wire 1 e \FSM|Ereg.FIM~0_combout\ $end
+$var wire 1 f \FSM|Ereg.FIM~q\ $end
+$var wire 1 g \FSM|WideNor1~combout\ $end
+$var wire 1 h \FSM|WideOr4~combout\ $end
+$var wire 1 i \CONT_INICIO|IQ\ [3] $end
+$var wire 1 j \CONT_INICIO|IQ\ [2] $end
+$var wire 1 k \CONT_INICIO|IQ\ [1] $end
+$var wire 1 l \CONT_INICIO|IQ\ [0] $end
+$var wire 1 m \FSM|estado\ [3] $end
+$var wire 1 n \FSM|estado\ [2] $end
+$var wire 1 o \FSM|estado\ [1] $end
+$var wire 1 p \FSM|estado\ [0] $end
+$var wire 1 q \CONT_INICIO|ALT_INV_IQ[1]~DUPLICATE_q\ $end
+$var wire 1 r \CONT_INICIO|ALT_INV_IQ[2]~DUPLICATE_q\ $end
+$var wire 1 s \CONT_INICIO|ALT_INV_IQ[0]~DUPLICATE_q\ $end
+$var wire 1 t \ALT_INV_reset~input_o\ $end
+$var wire 1 u \ALT_INV_iniciar~input_o\ $end
+$var wire 1 v \ALT_INV_resposta~input_o\ $end
+$var wire 1 w \LATCH|ALT_INV_iq~combout\ $end
+$var wire 1 x \ALT_INV_reset_interno~combout\ $end
+$var wire 1 y \FSM|ALT_INV_Ereg.INICIAL~q\ $end
+$var wire 1 z \CONT_INICIO|ALT_INV_Equal0~0_combout\ $end
+$var wire 1 { \CONT_INICIO|ALT_INV_IQ\ [3] $end
+$var wire 1 | \CONT_INICIO|ALT_INV_IQ\ [2] $end
+$var wire 1 } \CONT_INICIO|ALT_INV_IQ\ [1] $end
+$var wire 1 ~ \CONT_INICIO|ALT_INV_IQ\ [0] $end
+$var wire 1 !! \FSM|ALT_INV_Ereg.FIM~q\ $end
+$var wire 1 "! \FSM|ALT_INV_Ereg.ERRO~q\ $end
+$var wire 1 #! \FSM|ALT_INV_Ereg.ESPERA~q\ $end
+$var wire 1 $! \FSM|ALT_INV_Ereg.ESTIMULO~q\ $end
+$var wire 1 %! \FSM|ALT_INV_Ereg.CONTANDO~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0*
+0+
+0,
+0-
+1.
+1/
+00
+01
+12
+x3
+14
+15
+16
+17
+18
+19
+0:
+1;
+0<
+0=
+0>
+0?
+1@
+0A
+0B
+0G
+0H
+0I
+xJ
+0K
+0L
+0M
+0N
+0O
+1P
+0Q
+1R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+1a
+1b
+0c
+0d
+0e
+0f
+0g
+0h
+1q
+1r
+1s
+0t
+1u
+1v
+0w
+0x
+1y
+1z
+1!!
+1"!
+1#!
+1$!
+1%!
+0C
+0D
+0E
+0F
+0i
+0j
+0k
+0l
+xm
+xn
+0o
+0p
+1{
+1|
+1}
+1~
+0&
+0'
+0(
+0)
+$end
+#10000
+1!
+1:
+1K
+1L
+1G
+1"
+#20000
+0!
+0/
+1+
+0:
+0;
+1<
+1N
+0P
+0K
+0L
+1t
+0u
+1O
+1Z
+0a
+1x
+0G
+0"
+#30000
+1!
+1:
+1K
+1L
+1Q
+1[
+0%!
+0y
+1G
+1`
+1p
+1"
+1F
+1>
+1)
+1,
+#40000
+0!
+0+
+0:
+0<
+0N
+0K
+0L
+1u
+0G
+0"
+#50000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+1T
+1"
+#60000
+0!
+0:
+0K
+0L
+0G
+0"
+#70000
+1!
+1:
+1K
+1L
+0l
+0S
+1k
+1U
+0q
+0}
+1s
+1~
+1G
+1R
+1"
+#80000
+0!
+0:
+0K
+0L
+0G
+0"
+#90000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+0T
+1V
+1"
+#100000
+0!
+0:
+0K
+0L
+0G
+0"
+#110000
+1!
+1:
+1K
+1L
+0l
+0S
+1j
+0k
+0U
+1W
+0r
+1q
+1}
+0|
+1s
+1~
+1G
+1R
+1"
+#120000
+0!
+0:
+0K
+0L
+0G
+0"
+#130000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+1T
+1"
+#140000
+0!
+0:
+0K
+0L
+0G
+0"
+#150000
+1!
+1:
+1K
+1L
+0l
+0S
+1k
+1U
+0q
+0}
+1s
+1~
+1G
+1R
+1"
+#160000
+0!
+0:
+0K
+0L
+0G
+0"
+#170000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+0T
+0V
+1X
+1"
+#180000
+0!
+0:
+0K
+0L
+0G
+0"
+#190000
+1!
+1:
+1K
+1L
+0l
+0S
+0j
+0k
+0U
+0W
+1i
+0{
+1r
+1q
+1}
+1|
+1s
+1~
+1G
+1R
+1"
+#200000
+0!
+0:
+0K
+0L
+0G
+0"
+#210000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+0X
+1Y
+0z
+1"
+0Z
+1\
+#220000
+0!
+0:
+0K
+0L
+0G
+0"
+#230000
+1!
+1:
+1K
+1L
+0l
+0S
+0i
+0[
+1]
+0$!
+1%!
+1{
+1s
+1~
+1G
+1R
+0Y
+0p
+0b
+1o
+1w
+1z
+1"
+1?
+1I
+1*
+1$
+1E
+0@
+0F
+0)
+1(
+0.
+#240000
+0!
+0:
+0K
+0L
+0G
+0"
+#250000
+1!
+1:
+1K
+1L
+1G
+1"
+#260000
+0!
+0:
+0K
+0L
+0G
+0"
+#265000
+10
+1=
+1M
+0v
+0\
+1^
+1a
+0x
+#270000
+1!
+1:
+1K
+1L
+0]
+1_
+0#!
+1$!
+1G
+0^
+1b
+0o
+1e
+1h
+0w
+1"
+0?
+0I
+0*
+0$
+1D
+0E
+1@
+0(
+1'
+1.
+#280000
+0!
+0:
+0K
+0L
+0G
+0"
+#290000
+1!
+1:
+1K
+1L
+0_
+1f
+0!!
+1#!
+1G
+0`
+0h
+1g
+1"
+1B
+1C
+0D
+0>
+1-
+0'
+1&
+0,
+#300000
+0!
+0:
+0K
+0L
+0G
+0"
+#310000
+1!
+1:
+1K
+1L
+1G
+1"
+#320000
+0!
+0:
+0K
+0L
+0G
+0"
+#330000
+1!
+1:
+1K
+1L
+1G
+1"
+#340000
+0!
+0:
+0K
+0L
+0G
+0"
+#345000
+00
+0=
+0M
+1v
+0a
+1x
+#350000
+1!
+1:
+1K
+1L
+1G
+1"
+#360000
+0!
+0:
+0K
+0L
+0G
+0"
+#370000
+1!
+1:
+1K
+1L
+1G
+1"
+#380000
+0!
+1/
+0:
+1;
+1P
+0K
+0L
+0t
+1a
+0Q
+0f
+1!!
+1y
+0x
+0G
+0O
+0e
+0g
+0"
+0B
+0C
+0-
+0&
+#390000
+1!
+1:
+1K
+1L
+1G
+1"
+#400000
+0!
+0/
+1+
+0:
+0;
+1<
+1N
+0P
+0K
+0L
+1t
+0u
+1O
+1Z
+0a
+1x
+0G
+0"
+#410000
+1!
+1:
+1K
+1L
+1Q
+1[
+0%!
+0y
+1G
+1`
+1p
+1"
+1F
+1>
+1)
+1,
+#420000
+0!
+0+
+0:
+0<
+0N
+0K
+0L
+1u
+0G
+0"
+#430000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+1T
+1"
+#440000
+0!
+0:
+0K
+0L
+0G
+0"
+#450000
+1!
+1:
+1K
+1L
+0l
+0S
+1k
+1U
+0q
+0}
+1s
+1~
+1G
+1R
+1"
+#460000
+0!
+0:
+0K
+0L
+0G
+0"
+#470000
+1!
+1:
+1K
+1L
+1l
+1S
+0s
+0~
+1G
+0R
+0T
+1V
+1"
+#475000
+10
+1=
+1M
+0v
+0Z
+1a
+1c
+0x
+#480000
+0!
+0:
+0K
+0L
+0G
+0"
+#490000
+1!
+1:
+1K
+1L
+0l
+0S
+1j
+0k
+0U
+1W
+0[
+1d
+0"!
+1%!
+0r
+1q
+1}
+0|
+1s
+1~
+1G
+1R
+0`
+1g
+1o
+1h
+1"
+1A
+1H
+1%
+1#
+1D
+1E
+1B
+1C
+0>
+1(
+1'
+1&
+1-
+0,
+#500000
+0!
+0:
+0K
+0L
+0G
+0"
+#510000
+1!
+1:
+1K
+1L
+1G
+1"
+#520000
+0!
+0:
+0K
+0L
+0G
+0"
+#530000
+1!
+1:
+1K
+1L
+1G
+1"
+#540000
+0!
+0:
+0K
+0L
+0G
+0"
+#550000
+1!
+00
+1:
+0=
+0M
+1K
+1L
+1v
+0a
+1x
+1G
+1"
+#560000
+0!
+0:
+0K
+0L
+0G
+0"
+#570000
+1!
+1:
+1K
+1L
+1G
+1"
+#580000
+0!
+0:
+0K
+0L
+0G
+0"
+#590000
+1!
+1:
+1K
+1L
+1G
+1"
+#600000
+0!
+1/
+0:
+1;
+1P
+0K
+0L
+0t
+1a
+0Q
+0d
+1"!
+1y
+0x
+0j
+0W
+0G
+0O
+0c
+0g
+0p
+0o
+0h
+1r
+1|
+0"
+0A
+0H
+0V
+0%
+0#
+0D
+0E
+0F
+0B
+0C
+0)
+0(
+0'
+0&
+0-
+#610000
+1!
+1:
+1K
+1L
+1G
+1"
+#620000
+0!
+0:
+0K
+0L
+0G
+0"
+#630000
+1!
+0/
+1:
+0;
+0P
+1K
+1L
+1t
+0a
+1x
+1G
+1"
+#640000

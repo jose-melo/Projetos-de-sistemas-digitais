@@ -1,0 +1,1044 @@
+$comment
+	File created using the following command:
+		vcd file interfacev1.msim.vcd -direction
+$end
+$date
+	Sun Jan 26 20:03:54 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module interface_leds_botoes_v2_vhd_vec_tst $end
+$var wire 1 ! clock $end
+$var wire 1 " db_clock $end
+$var wire 1 # db_erro $end
+$var wire 1 $ db_estimulo $end
+$var wire 1 % erro $end
+$var wire 1 & estado [6] $end
+$var wire 1 ' estado [5] $end
+$var wire 1 ( estado [4] $end
+$var wire 1 ) estado [3] $end
+$var wire 1 * estado [2] $end
+$var wire 1 + estado [1] $end
+$var wire 1 , estado [0] $end
+$var wire 1 - estimulo $end
+$var wire 1 . iniciar $end
+$var wire 1 / ligado $end
+$var wire 1 0 pronto $end
+$var wire 1 1 pulso $end
+$var wire 1 2 reset $end
+$var wire 1 3 resposta $end
+
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var wire 1 7 devoe $end
+$var wire 1 8 devclrn $end
+$var wire 1 9 devpor $end
+$var wire 1 : ww_devoe $end
+$var wire 1 ; ww_devclrn $end
+$var wire 1 < ww_devpor $end
+$var wire 1 = ww_clock $end
+$var wire 1 > ww_reset $end
+$var wire 1 ? ww_iniciar $end
+$var wire 1 @ ww_resposta $end
+$var wire 1 A ww_ligado $end
+$var wire 1 B ww_estimulo $end
+$var wire 1 C ww_pulso $end
+$var wire 1 D ww_erro $end
+$var wire 1 E ww_pronto $end
+$var wire 1 F ww_estado [6] $end
+$var wire 1 G ww_estado [5] $end
+$var wire 1 H ww_estado [4] $end
+$var wire 1 I ww_estado [3] $end
+$var wire 1 J ww_estado [2] $end
+$var wire 1 K ww_estado [1] $end
+$var wire 1 L ww_estado [0] $end
+$var wire 1 M ww_db_clock $end
+$var wire 1 N ww_db_erro $end
+$var wire 1 O ww_db_estimulo $end
+$var wire 1 P \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 Q \clock~input_o\ $end
+$var wire 1 R \clock~inputCLKENA0_outclk\ $end
+$var wire 1 S \iniciar~input_o\ $end
+$var wire 1 T \FSM|Ereg.INICIAL~0_combout\ $end
+$var wire 1 U \reset~input_o\ $end
+$var wire 1 V \FSM|Ereg.INICIAL~q\ $end
+$var wire 1 W \resposta~input_o\ $end
+$var wire 1 X \CONT_INICIO|IQ[0]~3_combout\ $end
+$var wire 1 Y \CONT_INICIO|IQ[0]~DUPLICATE_q\ $end
+$var wire 1 Z \CONT_INICIO|IQ~2_combout\ $end
+$var wire 1 [ \CONT_INICIO|IQ[1]~DUPLICATE_q\ $end
+$var wire 1 \ \CONT_INICIO|IQ[2]~1_combout\ $end
+$var wire 1 ] \CONT_INICIO|IQ~0_combout\ $end
+$var wire 1 ^ \CONT_INICIO|Equal0~0_combout\ $end
+$var wire 1 _ \FSM|Selector0~0_combout\ $end
+$var wire 1 ` \FSM|Ereg.CONTANDO~q\ $end
+$var wire 1 a \FSM|Selector2~0_combout\ $end
+$var wire 1 b \FSM|Ereg.ESTIMULO~q\ $end
+$var wire 1 c \FSM|Eprox.ESPERA~0_combout\ $end
+$var wire 1 d \FSM|Ereg.ESPERA~q\ $end
+$var wire 1 e \FSM|WideNor0~combout\ $end
+$var wire 1 f \LATCH|iq~combout\ $end
+$var wire 1 g \PULSE|pulso~0_combout\ $end
+$var wire 1 h \FSM|Ereg.ERRO~0_combout\ $end
+$var wire 1 i \FSM|Ereg.ERRO~q\ $end
+$var wire 1 j \FSM|Ereg.FIM~0_combout\ $end
+$var wire 1 k \FSM|Ereg.FIM~q\ $end
+$var wire 1 l \FSM|WideNor1~combout\ $end
+$var wire 1 m \DISPLAY_ESTADOS|sseg[0]~0_combout\ $end
+$var wire 1 n \DISPLAY_ESTADOS|sseg[2]~1_combout\ $end
+$var wire 1 o \DISPLAY_ESTADOS|sseg[3]~2_combout\ $end
+$var wire 1 p \DISPLAY_ESTADOS|sseg[4]~3_combout\ $end
+$var wire 1 q \DISPLAY_ESTADOS|sseg[5]~4_combout\ $end
+$var wire 1 r \DISPLAY_ESTADOS|sseg[6]~5_combout\ $end
+$var wire 1 s \CONT_INICIO|IQ\ [3] $end
+$var wire 1 t \CONT_INICIO|IQ\ [2] $end
+$var wire 1 u \CONT_INICIO|IQ\ [1] $end
+$var wire 1 v \CONT_INICIO|IQ\ [0] $end
+$var wire 1 w \CONT_INICIO|ALT_INV_IQ[1]~DUPLICATE_q\ $end
+$var wire 1 x \CONT_INICIO|ALT_INV_IQ[0]~DUPLICATE_q\ $end
+$var wire 1 y \ALT_INV_reset~input_o\ $end
+$var wire 1 z \ALT_INV_iniciar~input_o\ $end
+$var wire 1 { \ALT_INV_resposta~input_o\ $end
+$var wire 1 | \LATCH|ALT_INV_iq~combout\ $end
+$var wire 1 } \FSM|ALT_INV_Ereg.INICIAL~q\ $end
+$var wire 1 ~ \CONT_INICIO|ALT_INV_Equal0~0_combout\ $end
+$var wire 1 !! \CONT_INICIO|ALT_INV_IQ\ [3] $end
+$var wire 1 "! \CONT_INICIO|ALT_INV_IQ\ [2] $end
+$var wire 1 #! \CONT_INICIO|ALT_INV_IQ\ [1] $end
+$var wire 1 $! \CONT_INICIO|ALT_INV_IQ\ [0] $end
+$var wire 1 %! \FSM|ALT_INV_Ereg.FIM~q\ $end
+$var wire 1 &! \FSM|ALT_INV_Ereg.ERRO~q\ $end
+$var wire 1 '! \FSM|ALT_INV_Ereg.ESPERA~q\ $end
+$var wire 1 (! \FSM|ALT_INV_Ereg.ESTIMULO~q\ $end
+$var wire 1 )! \FSM|ALT_INV_Ereg.CONTANDO~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0-
+0.
+0/
+00
+01
+12
+03
+04
+15
+x6
+17
+18
+19
+1:
+1;
+1<
+0=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0M
+0N
+0O
+xP
+0Q
+0R
+0S
+0T
+1U
+0V
+0W
+1X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+1r
+1w
+1x
+0y
+1z
+1{
+1|
+1}
+1~
+1%!
+1&!
+1'!
+1(!
+1)!
+1F
+0G
+0H
+0I
+0J
+0K
+0L
+0s
+0t
+0u
+0v
+1!!
+1"!
+1#!
+1$!
+1&
+0'
+0(
+0)
+0*
+0+
+0,
+$end
+#10000
+1!
+1=
+1Q
+1R
+1M
+1"
+#20000
+0!
+02
+1.
+0=
+0>
+1?
+1S
+0U
+0Q
+0R
+1y
+0z
+1T
+1_
+0M
+0"
+#30000
+1!
+1=
+1Q
+1R
+1V
+1`
+0)!
+0}
+1M
+1e
+1m
+1o
+1p
+1q
+1"
+1G
+1H
+1I
+1L
+1A
+1,
+1)
+1(
+1'
+1/
+#40000
+0!
+0.
+0=
+0?
+0S
+0Q
+0R
+1z
+0M
+0"
+#50000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+1Z
+1"
+#60000
+0!
+0=
+0Q
+0R
+0M
+0"
+#70000
+1!
+1=
+1Q
+1R
+0v
+0Y
+1u
+1[
+0w
+0#!
+1x
+1$!
+1M
+1X
+1"
+#80000
+0!
+0=
+0Q
+0R
+0M
+0"
+#90000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+0Z
+1\
+1"
+#100000
+0!
+0=
+0Q
+0R
+0M
+0"
+#110000
+1!
+1=
+1Q
+1R
+0v
+0Y
+0u
+0[
+1t
+0"!
+1w
+1#!
+1x
+1$!
+1M
+1X
+1"
+#120000
+0!
+0=
+0Q
+0R
+0M
+0"
+#130000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+1Z
+1"
+#140000
+0!
+0=
+0Q
+0R
+0M
+0"
+#150000
+1!
+1=
+1Q
+1R
+0v
+0Y
+1u
+1[
+0w
+0#!
+1x
+1$!
+1M
+1X
+1"
+#160000
+0!
+0=
+0Q
+0R
+0M
+0"
+#170000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+0Z
+0\
+1]
+1"
+#180000
+0!
+0=
+0Q
+0R
+0M
+0"
+#190000
+1!
+1=
+1Q
+1R
+0v
+0Y
+0u
+0[
+0t
+1s
+0!!
+1"!
+1w
+1#!
+1x
+1$!
+1M
+1X
+1"
+#200000
+0!
+0=
+0Q
+0R
+0M
+0"
+#210000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+1^
+0]
+0~
+1"
+0_
+1a
+#220000
+0!
+0=
+0Q
+0R
+0M
+0"
+#230000
+1!
+1=
+1Q
+1R
+0v
+0Y
+0s
+0`
+1b
+0(!
+1)!
+1!!
+1x
+1$!
+1M
+1X
+0^
+0o
+1g
+0m
+1n
+0p
+0r
+1~
+1"
+1B
+1O
+1-
+1$
+0F
+0H
+1J
+0L
+1C
+0I
+0,
+1*
+0)
+0(
+0&
+11
+#240000
+0!
+0=
+0Q
+0R
+0M
+0"
+#250000
+1!
+1=
+1Q
+1R
+1M
+1"
+#260000
+0!
+0=
+0Q
+0R
+0M
+0"
+#265000
+13
+1@
+1W
+0{
+0a
+1c
+1f
+0|
+0g
+0C
+01
+#270000
+1!
+1=
+1Q
+1R
+0b
+1d
+0'!
+1(!
+1M
+0c
+1j
+1m
+0n
+1o
+1p
+0q
+1"
+0B
+0O
+0-
+0$
+0G
+1H
+1I
+0J
+1L
+1,
+0*
+1)
+1(
+0'
+#280000
+0!
+0=
+0Q
+0R
+0M
+0"
+#290000
+1!
+1=
+1Q
+1R
+0d
+1k
+0%!
+1'!
+1M
+0e
+0o
+1l
+0m
+0p
+1"
+0H
+0L
+1E
+0I
+0A
+0,
+0)
+0(
+10
+0/
+#300000
+0!
+0=
+0Q
+0R
+0M
+0"
+#310000
+1!
+1=
+1Q
+1R
+1M
+1"
+#320000
+0!
+0=
+0Q
+0R
+0M
+0"
+#330000
+1!
+1=
+1Q
+1R
+1M
+1"
+#340000
+0!
+0=
+0Q
+0R
+0M
+0"
+#345000
+03
+0@
+0W
+1{
+#350000
+1!
+1=
+1Q
+1R
+1M
+1"
+#360000
+0!
+0=
+0Q
+0R
+0M
+0"
+#370000
+1!
+1=
+1Q
+1R
+1M
+1"
+#380000
+0!
+12
+0=
+1>
+1U
+0Q
+0R
+0y
+0f
+0V
+0k
+1%!
+1}
+1|
+0M
+0T
+0j
+0l
+1r
+0"
+1F
+0E
+1&
+00
+#390000
+1!
+1=
+1Q
+1R
+1M
+1"
+#400000
+0!
+02
+1.
+0=
+0>
+1?
+1S
+0U
+0Q
+0R
+1y
+0z
+1T
+1_
+0M
+0"
+#410000
+1!
+1=
+1Q
+1R
+1V
+1`
+0)!
+0}
+1M
+1e
+1m
+1o
+1p
+1q
+1"
+1G
+1H
+1I
+1L
+1A
+1,
+1)
+1(
+1'
+1/
+#420000
+0!
+0.
+0=
+0?
+0S
+0Q
+0R
+1z
+0M
+0"
+#430000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+1Z
+1"
+#440000
+0!
+0=
+0Q
+0R
+0M
+0"
+#450000
+1!
+1=
+1Q
+1R
+0v
+0Y
+1u
+1[
+0w
+0#!
+1x
+1$!
+1M
+1X
+1"
+#460000
+0!
+0=
+0Q
+0R
+0M
+0"
+#470000
+1!
+1=
+1Q
+1R
+1v
+1Y
+0x
+0$!
+1M
+0X
+0Z
+1\
+1"
+#475000
+13
+1@
+1W
+0{
+0_
+1f
+1h
+0|
+#480000
+0!
+0=
+0Q
+0R
+0M
+0"
+#490000
+1!
+1=
+1Q
+1R
+0v
+0Y
+0u
+0[
+1t
+0`
+1i
+0&!
+1)!
+0"!
+1w
+1#!
+1x
+1$!
+1M
+1X
+0e
+1l
+0m
+1n
+0p
+0q
+0r
+1"
+1D
+1K
+1N
+1%
+1+
+1#
+0F
+0G
+0H
+1J
+0L
+1E
+0A
+0,
+1*
+0(
+0'
+0&
+10
+0/
+#500000
+0!
+0=
+0Q
+0R
+0M
+0"
+#510000
+1!
+1=
+1Q
+1R
+1M
+1"
+#520000
+0!
+0=
+0Q
+0R
+0M
+0"
+#530000
+1!
+1=
+1Q
+1R
+1M
+1"
+#540000
+0!
+0=
+0Q
+0R
+0M
+0"
+#550000
+1!
+03
+1=
+0@
+0W
+1Q
+1R
+1{
+1M
+1"
+#560000
+0!
+0=
+0Q
+0R
+0M
+0"
+#570000
+1!
+1=
+1Q
+1R
+1M
+1"
+#580000
+0!
+0=
+0Q
+0R
+0M
+0"
+#590000
+1!
+1=
+1Q
+1R
+1M
+1"
+#600000
+0!
+12
+0=
+1>
+1U
+0Q
+0R
+0y
+0f
+0V
+0i
+1&!
+1}
+1|
+0t
+0M
+0T
+0h
+0l
+0n
+0o
+1r
+1"!
+0"
+0D
+0K
+0N
+0\
+0%
+0+
+0#
+1F
+0I
+0J
+0E
+0*
+0)
+1&
+00
+#610000
+1!
+1=
+1Q
+1R
+1M
+1"
+#620000
+0!
+0=
+0Q
+0R
+0M
+0"
+#630000
+1!
+02
+1=
+0>
+0U
+1Q
+1R
+1y
+1M
+1"
+#640000

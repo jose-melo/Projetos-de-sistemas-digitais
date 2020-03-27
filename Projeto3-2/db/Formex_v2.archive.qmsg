@@ -1,0 +1,41 @@
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1585278849612 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1585278849612 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "Shell" 0 0 1585278849612 ""}
+{ "Warning" "0" "" "Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver" {  } {  } 0 0 "Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver" 0 0 "Shell" 0 0 1585278849642 ""}
+{ "Warning" "0" "" "Excluding 'Automatically detected source files' The Quartus Prime software may not be able to automatically locate all project files." {  } {  } 0 0 "Excluding 'Automatically detected source files' The Quartus Prime software may not be able to automatically locate all project files." 0 0 "Shell" 0 0 1585278849644 ""}
+{ "Info" "0" "" "Parsing: comparador_nbits.vhd" {  } {  } 0 0 "Parsing: comparador_nbits.vhd" 0 0 "Shell" 0 0 1585278849748 ""}
+{ "Info" "0" "" "Parsing: comparador_bcd.vhd" {  } {  } 0 0 "Parsing: comparador_bcd.vhd" 0 0 "Shell" 0 0 1585278849749 ""}
+{ "Info" "0" "" "Parsing: comparador_7485.vhd" {  } {  } 0 0 "Parsing: comparador_7485.vhd" 0 0 "Shell" 0 0 1585278849749 ""}
+{ "Info" "0" "" "Parsing: somador_decimal_4digitos.vhd" {  } {  } 0 0 "Parsing: somador_decimal_4digitos.vhd" 0 0 "Shell" 0 0 1585278849750 ""}
+{ "Info" "0" "" "Parsing: somador_decimal.vhd" {  } {  } 0 0 "Parsing: somador_decimal.vhd" 0 0 "Shell" 0 0 1585278849750 ""}
+{ "Info" "0" "" "Parsing: somador_completo.vhd" {  } {  } 0 0 "Parsing: somador_completo.vhd" 0 0 "Shell" 0 0 1585278849751 ""}
+{ "Info" "0" "" "Parsing: somador_4bits_estrutural.vhd" {  } {  } 0 0 "Parsing: somador_4bits_estrutural.vhd" 0 0 "Shell" 0 0 1585278849752 ""}
+{ "Info" "0" "" "Parsing: RNG.vhd" {  } {  } 0 0 "Parsing: RNG.vhd" 0 0 "Shell" 0 0 1585278849752 ""}
+{ "Info" "0" "" "Parsing: registrador16bits.vhd" {  } {  } 0 0 "Parsing: registrador16bits.vhd" 0 0 "Shell" 0 0 1585278849753 ""}
+{ "Info" "0" "" "Parsing: mux4x1_nbits.vhd" {  } {  } 0 0 "Parsing: mux4x1_nbits.vhd" 0 0 "Shell" 0 0 1585278849753 ""}
+{ "Info" "0" "" "Parsing: mux2x1_nbits.vhd" {  } {  } 0 0 "Parsing: mux2x1_nbits.vhd" 0 0 "Shell" 0 0 1585278849753 ""}
+{ "Info" "0" "" "Parsing: medidor_largura.vhd" {  } {  } 0 0 "Parsing: medidor_largura.vhd" 0 0 "Shell" 0 0 1585278849754 ""}
+{ "Info" "0" "" "Parsing: latch_sr.vhd" {  } {  } 0 0 "Parsing: latch_sr.vhd" 0 0 "Shell" 0 0 1585278849755 ""}
+{ "Info" "0" "" "Parsing: JogoReacao_v1.vhd" {  } {  } 0 0 "Parsing: JogoReacao_v1.vhd" 0 0 "Shell" 0 0 1585278849755 ""}
+{ "Info" "0" "" "Parsing: InterfaceMedidor.vhd" {  } {  } 0 0 "Parsing: InterfaceMedidor.vhd" 0 0 "Shell" 0 0 1585278849757 ""}
+{ "Info" "0" "" "Parsing: interface_leds_botoes_v2.vhd" {  } {  } 0 0 "Parsing: interface_leds_botoes_v2.vhd" 0 0 "Shell" 0 0 1585278849758 ""}
+{ "Info" "0" "" "Parsing: interface_FSM_v4.vhd" {  } {  } 0 0 "Parsing: interface_FSM_v4.vhd" 0 0 "Shell" 0 0 1585278849758 ""}
+{ "Info" "0" "" "Parsing: hexa7seg.vhd" {  } {  } 0 0 "Parsing: hexa7seg.vhd" 0 0 "Shell" 0 0 1585278849759 ""}
+{ "Info" "0" "" "Parsing: geraPulse.vhd" {  } {  } 0 0 "Parsing: geraPulse.vhd" 0 0 "Shell" 0 0 1585278849760 ""}
+{ "Info" "0" "" "Parsing: gera_vaium.vhd" {  } {  } 0 0 "Parsing: gera_vaium.vhd" 0 0 "Shell" 0 0 1585278849760 ""}
+{ "Info" "0" "" "Parsing: Formex.vhd" {  } {  } 0 0 "Parsing: Formex.vhd" 0 0 "Shell" 0 0 1585278849760 ""}
+{ "Info" "0" "" "Parsing: controladorJogo.vhd" {  } {  } 0 0 "Parsing: controladorJogo.vhd" 0 0 "Shell" 0 0 1585278849761 ""}
+{ "Info" "0" "" "Parsing: controladorFinal.vhd" {  } {  } 0 0 "Parsing: controladorFinal.vhd" 0 0 "Shell" 0 0 1585278849762 ""}
+{ "Info" "0" "" "Parsing: controlador.vhd" {  } {  } 0 0 "Parsing: controlador.vhd" 0 0 "Shell" 0 0 1585278849763 ""}
+{ "Info" "0" "" "Parsing: contador_modm.vhd" {  } {  } 0 0 "Parsing: contador_modm.vhd" 0 0 "Shell" 0 0 1585278849763 ""}
+{ "Info" "0" "" "Parsing: contador_162.vhd" {  } {  } 0 0 "Parsing: contador_162.vhd" 0 0 "Shell" 0 0 1585278849764 ""}
+{ "Info" "0" "" "Parsing: contador16bits_mod10.vhd" {  } {  } 0 0 "Parsing: contador16bits_mod10.vhd" 0 0 "Shell" 0 0 1585278849764 ""}
+{ "Info" "0" "" "Parsing: Formex_v2.vhd" {  } {  } 0 0 "Parsing: Formex_v2.vhd" 0 0 "Shell" 0 0 1585278849765 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "Shell" 0 0 1585278849768 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "/home/jose/Desktop/LabDig/Projeto3-2/ " "Using common directory /home/jose/Desktop/LabDig/Projeto3-2/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Shell" 0 -1 1585278849897 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1585278849905 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1585278849905 ""}
+{ "Info" "0" "" "Generated archive '/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qar'" {  } {  } 0 0 "Generated archive '/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qar'" 0 0 "Shell" 0 0 1585278849905 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1585278849905 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1585278849905 ""}
+{ "Info" "0" "" "Generated report 'Formex_v2.archive.rpt'" {  } {  } 0 0 "Generated report 'Formex_v2.archive.rpt'" 0 0 "Shell" 0 0 1585278849906 ""}
+{ "Info" "IQEXE_TCL_SCRIPT_STATUS" "/home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl " "Evaluation of Tcl script /home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl was successful" {  } {  } 0 23030 "Evaluation of Tcl script %1!s! was successful" 0 0 "Shell" 0 -1 1585278849912 ""}
+{ "Info" "IQEXE_ERROR_COUNT" "Shell 0 s 2 s Quartus Prime " "Quartus Prime Shell was successful. 0 errors, 2 warnings" { { "Info" "IQEXE_END_PEAK_VSIZE_MEMORY" "1052 " "Peak virtual memory: 1052 megabytes" {  } {  } 0 0 "Peak virtual memory: %1!s! megabytes" 0 0 "Design Software" 0 -1 1585278849912 ""} { "Info" "IQEXE_END_BANNER_TIME" "Fri Mar 27 00:14:09 2020 " "Processing ended: Fri Mar 27 00:14:09 2020" {  } {  } 0 0 "Processing ended: %1!s!" 0 0 "Design Software" 0 -1 1585278849912 ""} { "Info" "IQEXE_ELAPSED_TIME" "00:00:01 " "Elapsed time: 00:00:01" {  } {  } 0 0 "Elapsed time: %1!s!" 0 0 "Design Software" 0 -1 1585278849912 ""} { "Info" "IQEXE_ELAPSED_CPU_TIME" "00:00:01 " "Total CPU time (on all processors): 00:00:01" {  } {  } 0 0 "Total CPU time (on all processors): %1!s!" 0 0 "Design Software" 0 -1 1585278849912 ""}  } {  } 0 0 "%6!s! %1!s! was successful. %2!d! error%3!s!, %4!d! warning%5!s!" 0 0 "Shell" 0 -1 1585278849912 ""}

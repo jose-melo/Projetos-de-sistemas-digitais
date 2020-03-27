@@ -1,0 +1,45 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity interface_leds_botoes is
+    port (
+        clock    : in  std_logic;   --comentário
+        reset    : in  std_logic;
+        iniciar  : in  std_logic;
+        resposta : in  std_logic;
+        ligado   : out std_logic;
+        estimulo : out std_logic;
+        pulso    : out std_logic;
+        erro     : out std_logic;
+        pronto   : out std_logic
+);
+end interface_leds_botoes;
+
+architecture arch of interface_leds_botoes is
+    component contador_modm is
+        generic (
+            constant M: integer := 256  -- valor default do modulo do contador
+        );
+        port (
+            clock, zera, conta: in std_logic;
+            Q: out std_logic_vector (natural(ceil(log2(real(M))))-1 downto 0);
+            fim: out std_logic
+        );
+    end component contador_modm;
+    component latch_sr is
+        port (
+            s, r: in  std_logic;
+            q:    out std_logic
+        );
+    end component latch_sr;
+
+    signal iniciar_estimulo, fim_latch, fim_contagem : std_logic;
+
+begin
+    fim_contagem <= iniciar_estimulo and not fim_latch;
+    CONT_INICIO: contador_modm
+        generic map (M => 10)
+        port map (clock, reset, iniciar, open, iniciar_estimulo);
+
+
+end architecture;

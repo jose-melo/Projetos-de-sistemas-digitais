@@ -1,0 +1,69 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v2.1.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v2.1.qar
+Date:		Wed Mar 18 16:14:42 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Formex.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/InterfaceMedidor.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v1.qpf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v1.qsf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v1.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/JogoReacao_v1_assignment_defaults.qdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/RNG.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/TesteLED.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/TesteMux.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/TesteMux3Ciclos.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/TesteRND.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform2.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform3.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform4.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform5.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform6.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform7.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/Waveform8.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/assignment_defaults.qdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/contador16bits_mod10.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/contador_162.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/contador_modm.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/controlador.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/controladorFinal.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/controladorJogo.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/geraPulse.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/gera_vaium.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/hexa7seg.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/interface_FSM_v4.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/interface_leds_botoes_v2.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/latch_sr.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/medidor_largura.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/mux2x1_nbits.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/mux4x1_nbits.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain1.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain10.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain11.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain12.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain13.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain14.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain15.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain2.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain3.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain4.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain5.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain6.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain7.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain8.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Chain9.cdf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Teste1.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Teste2.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/output_files/Waveform.vwf
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/registrador16bits.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/somador_4bits_estrutural.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/somador_completo.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/somador_decimal.vhd
+/home/jose/Desktop/LabDig/Projeto2/Projeto_v2_restored/somador_decimal_4digitos.vhd
+	======= Total: 58 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

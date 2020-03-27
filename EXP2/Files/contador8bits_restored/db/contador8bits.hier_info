@@ -1,0 +1,72 @@
+|contador8bits
+clock => contador_163:CONT1.clock
+clock => contador_163:CONT2.clock
+zera => contador_163:CONT1.clr
+zera => contador_163:CONT2.clr
+conta => contador_163:CONT1.enp
+conta => contador_163:CONT2.enp
+Q[0] <= contador_163:CONT1.Q[0]
+Q[1] <= contador_163:CONT1.Q[1]
+Q[2] <= contador_163:CONT1.Q[2]
+Q[3] <= contador_163:CONT1.Q[3]
+Q[4] <= contador_163:CONT2.Q[0]
+Q[5] <= contador_163:CONT2.Q[1]
+Q[6] <= contador_163:CONT2.Q[2]
+Q[7] <= contador_163:CONT2.Q[3]
+rco <= contador_163:CONT2.rco
+
+
+|contador8bits|contador_163:CONT1
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador8bits|contador_163:CONT2
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+

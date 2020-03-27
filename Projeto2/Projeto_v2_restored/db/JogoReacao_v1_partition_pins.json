@@ -1,0 +1,441 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ligado",
+					"strict" : false
+				},
+				{
+					"name" : "pulso",
+					"strict" : false
+				},
+				{
+					"name" : "estimulo",
+					"strict" : false
+				},
+				{
+					"name" : "erro",
+					"strict" : false
+				},
+				{
+					"name" : "pronto",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[12]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[13]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[14]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[15]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[10]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[11]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[12]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[13]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[14]",
+					"strict" : false
+				},
+				{
+					"name" : "tempoFinal_db[15]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado_7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[8]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[9]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[10]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[11]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[12]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[13]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[14]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[15]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[16]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[17]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[18]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[19]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[20]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[21]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[22]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[23]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[24]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[25]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[26]",
+					"strict" : false
+				},
+				{
+					"name" : "saida7seg[27]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[5]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[7]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[8]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[9]",
+					"strict" : false
+				},
+				{
+					"name" : "jogadasFeitas_db[0]",
+					"strict" : false
+				},
+				{
+					"name" : "jogadasFeitas_db[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gameover_db",
+					"strict" : false
+				},
+				{
+					"name" : "randContador_db[0]",
+					"strict" : false
+				},
+				{
+					"name" : "randContador_db[1]",
+					"strict" : false
+				},
+				{
+					"name" : "estadoAtual_db[0]",
+					"strict" : false
+				},
+				{
+					"name" : "estadoAtual_db[1]",
+					"strict" : false
+				},
+				{
+					"name" : "respostaJOGO_db",
+					"strict" : false
+				},
+				{
+					"name" : "ledsPecas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsPecas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledsPecas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dis4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_mux[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_mux[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "resposta2",
+					"strict" : false
+				},
+				{
+					"name" : "resposta1",
+					"strict" : false
+				},
+				{
+					"name" : "resposta3",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "pseudoclock",
+					"strict" : false
+				},
+				{
+					"name" : "jogar",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

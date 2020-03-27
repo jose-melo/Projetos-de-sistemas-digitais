@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/Teste/Teste.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/Teste/Teste.qar
+Date:		Thu Jan  9 19:48:24 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/Teste/Teste.bdf
+/home/jose/Desktop/LabDig/Teste/Teste.qpf
+/home/jose/Desktop/LabDig/Teste/Teste.qsf
+/home/jose/Desktop/LabDig/Teste/Teste.vwf
+/home/jose/intelFPGA/18.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

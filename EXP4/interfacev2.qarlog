@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP4/interfacev2.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP4/interfacev2.qar
+Date:		Sun Jan 26 19:47:48 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP4/Waveform.vwf
+/home/jose/Desktop/LabDig/EXP4/Waveform2.vwf
+/home/jose/Desktop/LabDig/EXP4/Waveform3.vwf
+/home/jose/Desktop/LabDig/EXP4/Waveform4.vwf
+/home/jose/Desktop/LabDig/EXP4/contador_modm.vhd
+/home/jose/Desktop/LabDig/EXP4/geraPulse.vhd
+/home/jose/Desktop/LabDig/EXP4/interface_FSM_v4.vhd
+/home/jose/Desktop/LabDig/EXP4/interface_leds_botoes_v2.vhd
+/home/jose/Desktop/LabDig/EXP4/interfacev1.qpf
+/home/jose/Desktop/LabDig/EXP4/interfacev1.qsf
+/home/jose/Desktop/LabDig/EXP4/latch_sr.vhd
+/home/jose/intelFPGA/18.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun Jan 26 19:50:13 2020
+Source archive file:	/home/jose/Desktop/LabDig/EXP4/interfacev2.qar
+Archive was extracted into	/home/jose/Desktop/LabDig/EXP4/interfacev2_restored/
+		 - successfully.

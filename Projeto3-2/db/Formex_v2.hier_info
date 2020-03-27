@@ -1,0 +1,2984 @@
+|Formex_v2
+jogar => Formex:JOGO.jogar
+resposta1 => Formex:JOGO.resposta1
+resposta2 => Formex:JOGO.resposta2
+resposta3 => Formex:JOGO.resposta3
+reset => Formex:JOGO.reset
+reset => registrador16bits:REG1.clear
+clock => Formex:JOGO.clock
+clock => registrador16bits:REG1.clock
+pseudoclock => Formex:JOGO.pseudoclock
+sel_mux[0] => Formex:JOGO.sel_mux[0]
+sel_mux[1] => Formex:JOGO.sel_mux[1]
+ligado <= Formex:JOGO.ligado
+pulso <= Formex:JOGO.pulso
+estimulo <= Formex:JOGO.estimulo
+erro <= Formex:JOGO.erro
+pronto <= Formex:JOGO.pronto
+tempo[0] <= Formex:JOGO.tempo[0]
+tempo[1] <= Formex:JOGO.tempo[1]
+tempo[2] <= Formex:JOGO.tempo[2]
+tempo[3] <= Formex:JOGO.tempo[3]
+tempo[4] <= Formex:JOGO.tempo[4]
+tempo[5] <= Formex:JOGO.tempo[5]
+tempo[6] <= Formex:JOGO.tempo[6]
+tempo[7] <= Formex:JOGO.tempo[7]
+tempo[8] <= Formex:JOGO.tempo[8]
+tempo[9] <= Formex:JOGO.tempo[9]
+tempo[10] <= Formex:JOGO.tempo[10]
+tempo[11] <= Formex:JOGO.tempo[11]
+tempo[12] <= Formex:JOGO.tempo[12]
+tempo[13] <= Formex:JOGO.tempo[13]
+tempo[14] <= Formex:JOGO.tempo[14]
+tempo[15] <= Formex:JOGO.tempo[15]
+tempoFinal_db[0] <= Formex:JOGO.tempoFinal_db[0]
+tempoFinal_db[1] <= Formex:JOGO.tempoFinal_db[1]
+tempoFinal_db[2] <= Formex:JOGO.tempoFinal_db[2]
+tempoFinal_db[3] <= Formex:JOGO.tempoFinal_db[3]
+tempoFinal_db[4] <= Formex:JOGO.tempoFinal_db[4]
+tempoFinal_db[5] <= Formex:JOGO.tempoFinal_db[5]
+tempoFinal_db[6] <= Formex:JOGO.tempoFinal_db[6]
+tempoFinal_db[7] <= Formex:JOGO.tempoFinal_db[7]
+tempoFinal_db[8] <= Formex:JOGO.tempoFinal_db[8]
+tempoFinal_db[9] <= Formex:JOGO.tempoFinal_db[9]
+tempoFinal_db[10] <= Formex:JOGO.tempoFinal_db[10]
+tempoFinal_db[11] <= Formex:JOGO.tempoFinal_db[11]
+tempoFinal_db[12] <= Formex:JOGO.tempoFinal_db[12]
+tempoFinal_db[13] <= Formex:JOGO.tempoFinal_db[13]
+tempoFinal_db[14] <= Formex:JOGO.tempoFinal_db[14]
+tempoFinal_db[15] <= Formex:JOGO.tempoFinal_db[15]
+db_estado_7[0] <= Formex:JOGO.db_estado_7[0]
+db_estado_7[1] <= Formex:JOGO.db_estado_7[1]
+db_estado_7[2] <= Formex:JOGO.db_estado_7[2]
+db_estado_7[3] <= Formex:JOGO.db_estado_7[3]
+db_estado_7[4] <= Formex:JOGO.db_estado_7[4]
+db_estado_7[5] <= Formex:JOGO.db_estado_7[5]
+db_estado_7[6] <= Formex:JOGO.db_estado_7[6]
+saida7seg[0] <= Formex:JOGO.saida7seg[0]
+saida7seg[1] <= Formex:JOGO.saida7seg[1]
+saida7seg[2] <= Formex:JOGO.saida7seg[2]
+saida7seg[3] <= Formex:JOGO.saida7seg[3]
+saida7seg[4] <= Formex:JOGO.saida7seg[4]
+saida7seg[5] <= Formex:JOGO.saida7seg[5]
+saida7seg[6] <= Formex:JOGO.saida7seg[6]
+saida7seg[7] <= Formex:JOGO.saida7seg[7]
+saida7seg[8] <= Formex:JOGO.saida7seg[8]
+saida7seg[9] <= Formex:JOGO.saida7seg[9]
+saida7seg[10] <= Formex:JOGO.saida7seg[10]
+saida7seg[11] <= Formex:JOGO.saida7seg[11]
+saida7seg[12] <= Formex:JOGO.saida7seg[12]
+saida7seg[13] <= Formex:JOGO.saida7seg[13]
+saida7seg[14] <= Formex:JOGO.saida7seg[14]
+saida7seg[15] <= Formex:JOGO.saida7seg[15]
+saida7seg[16] <= Formex:JOGO.saida7seg[16]
+saida7seg[17] <= Formex:JOGO.saida7seg[17]
+saida7seg[18] <= Formex:JOGO.saida7seg[18]
+saida7seg[19] <= Formex:JOGO.saida7seg[19]
+saida7seg[20] <= Formex:JOGO.saida7seg[20]
+saida7seg[21] <= Formex:JOGO.saida7seg[21]
+saida7seg[22] <= Formex:JOGO.saida7seg[22]
+saida7seg[23] <= Formex:JOGO.saida7seg[23]
+saida7seg[24] <= Formex:JOGO.saida7seg[24]
+saida7seg[25] <= Formex:JOGO.saida7seg[25]
+saida7seg[26] <= Formex:JOGO.saida7seg[26]
+saida7seg[27] <= Formex:JOGO.saida7seg[27]
+leds[0] <= Formex:JOGO.leds[0]
+leds[1] <= Formex:JOGO.leds[1]
+leds[2] <= Formex:JOGO.leds[2]
+leds[3] <= Formex:JOGO.leds[3]
+leds[4] <= Formex:JOGO.leds[4]
+leds[5] <= Formex:JOGO.leds[5]
+leds[6] <= Formex:JOGO.leds[6]
+leds[7] <= Formex:JOGO.leds[7]
+leds[8] <= Formex:JOGO.leds[8]
+leds[9] <= Formex:JOGO.leds[9]
+jogadasFeitas_db[0] <= Formex:JOGO.jogadasFeitas_db[0]
+jogadasFeitas_db[1] <= Formex:JOGO.jogadasFeitas_db[1]
+gameover_db <= Formex:JOGO.gameover_db
+randContador_db[0] <= Formex:JOGO.randContador_db[0]
+randContador_db[1] <= Formex:JOGO.randContador_db[1]
+estadoAtual_db[0] <= Formex:JOGO.estadoAtual_db[0]
+estadoAtual_db[1] <= Formex:JOGO.estadoAtual_db[1]
+respostaJOGO_db <= Formex:JOGO.respostaJOGO_db
+ledsPecas[0] <= Formex:JOGO.ledsPecas[0]
+ledsPecas[1] <= Formex:JOGO.ledsPecas[1]
+ledsPecas[2] <= Formex:JOGO.ledsPecas[2]
+dis4[0] <= Formex:JOGO.dis4[0]
+dis4[1] <= Formex:JOGO.dis4[1]
+dis4[2] <= Formex:JOGO.dis4[2]
+dis4[3] <= Formex:JOGO.dis4[3]
+dis4[4] <= Formex:JOGO.dis4[4]
+dis4[5] <= Formex:JOGO.dis4[5]
+dis4[6] <= Formex:JOGO.dis4[6]
+
+
+|Formex_v2|Formex:JOGO
+jogar => estadoAtual.OUTPUTSELECT
+jogar => estadoAtual.OUTPUTSELECT
+jogar => controladorFinal:FINAL.jogar
+resposta1 => Mux0.IN1
+resposta2 => Mux0.IN2
+resposta3 => Mux0.IN3
+reset => controladorFinal:FINAL.reset
+reset => contador_modm:STATE_COUNT.zera
+reset => registrador16bits:REG.clear
+clock => controladorFinal:FINAL.clock
+clock => estadoAtual[0].CLK
+clock => estadoAtual[1].CLK
+clock => JogoReacao_v1:JOGO_REAC.clock
+clock => contador_modm:STATE_COUNT.clock
+clock => registrador16bits:REG.clock
+pseudoclock => RNG:RANDOM.pseudoclock
+sel_mux[0] => controladorFinal:FINAL.sel_mux[0]
+sel_mux[0] => JogoReacao_v1:JOGO_REAC.sel_mux[0]
+sel_mux[1] => controladorFinal:FINAL.sel_mux[1]
+sel_mux[1] => JogoReacao_v1:JOGO_REAC.sel_mux[1]
+ligado <= JogoReacao_v1:JOGO_REAC.ligado
+pulso <= JogoReacao_v1:JOGO_REAC.pulso
+estimulo <= JogoReacao_v1:JOGO_REAC.estimulo
+erro <= JogoReacao_v1:JOGO_REAC.erro
+pronto <= JogoReacao_v1:JOGO_REAC.pronto
+tempo[0] <= somador_decimal_4digitos:SOMADOR.soma[0]
+tempo[1] <= somador_decimal_4digitos:SOMADOR.soma[1]
+tempo[2] <= somador_decimal_4digitos:SOMADOR.soma[2]
+tempo[3] <= somador_decimal_4digitos:SOMADOR.soma[3]
+tempo[4] <= somador_decimal_4digitos:SOMADOR.soma[4]
+tempo[5] <= somador_decimal_4digitos:SOMADOR.soma[5]
+tempo[6] <= somador_decimal_4digitos:SOMADOR.soma[6]
+tempo[7] <= somador_decimal_4digitos:SOMADOR.soma[7]
+tempo[8] <= somador_decimal_4digitos:SOMADOR.soma[8]
+tempo[9] <= somador_decimal_4digitos:SOMADOR.soma[9]
+tempo[10] <= somador_decimal_4digitos:SOMADOR.soma[10]
+tempo[11] <= somador_decimal_4digitos:SOMADOR.soma[11]
+tempo[12] <= somador_decimal_4digitos:SOMADOR.soma[12]
+tempo[13] <= somador_decimal_4digitos:SOMADOR.soma[13]
+tempo[14] <= somador_decimal_4digitos:SOMADOR.soma[14]
+tempo[15] <= somador_decimal_4digitos:SOMADOR.soma[15]
+tempoFinal_db[0] <= registrador16bits:REG.Q[0]
+tempoFinal_db[1] <= registrador16bits:REG.Q[1]
+tempoFinal_db[2] <= registrador16bits:REG.Q[2]
+tempoFinal_db[3] <= registrador16bits:REG.Q[3]
+tempoFinal_db[4] <= registrador16bits:REG.Q[4]
+tempoFinal_db[5] <= registrador16bits:REG.Q[5]
+tempoFinal_db[6] <= registrador16bits:REG.Q[6]
+tempoFinal_db[7] <= registrador16bits:REG.Q[7]
+tempoFinal_db[8] <= registrador16bits:REG.Q[8]
+tempoFinal_db[9] <= registrador16bits:REG.Q[9]
+tempoFinal_db[10] <= registrador16bits:REG.Q[10]
+tempoFinal_db[11] <= registrador16bits:REG.Q[11]
+tempoFinal_db[12] <= registrador16bits:REG.Q[12]
+tempoFinal_db[13] <= registrador16bits:REG.Q[13]
+tempoFinal_db[14] <= registrador16bits:REG.Q[14]
+tempoFinal_db[15] <= registrador16bits:REG.Q[15]
+db_estado_7[0] <= hexa7seg:RANDOM_DISP.sseg[0]
+db_estado_7[1] <= hexa7seg:RANDOM_DISP.sseg[1]
+db_estado_7[2] <= hexa7seg:RANDOM_DISP.sseg[2]
+db_estado_7[3] <= hexa7seg:RANDOM_DISP.sseg[3]
+db_estado_7[4] <= hexa7seg:RANDOM_DISP.sseg[4]
+db_estado_7[5] <= hexa7seg:RANDOM_DISP.sseg[5]
+db_estado_7[6] <= hexa7seg:RANDOM_DISP.sseg[6]
+saida7seg[0] <= hexa7seg:DIS0.sseg[0]
+saida7seg[1] <= hexa7seg:DIS0.sseg[1]
+saida7seg[2] <= hexa7seg:DIS0.sseg[2]
+saida7seg[3] <= hexa7seg:DIS0.sseg[3]
+saida7seg[4] <= hexa7seg:DIS0.sseg[4]
+saida7seg[5] <= hexa7seg:DIS0.sseg[5]
+saida7seg[6] <= hexa7seg:DIS0.sseg[6]
+saida7seg[7] <= hexa7seg:DIS1.sseg[0]
+saida7seg[8] <= hexa7seg:DIS1.sseg[1]
+saida7seg[9] <= hexa7seg:DIS1.sseg[2]
+saida7seg[10] <= hexa7seg:DIS1.sseg[3]
+saida7seg[11] <= hexa7seg:DIS1.sseg[4]
+saida7seg[12] <= hexa7seg:DIS1.sseg[5]
+saida7seg[13] <= hexa7seg:DIS1.sseg[6]
+saida7seg[14] <= hexa7seg:DIS2.sseg[0]
+saida7seg[15] <= hexa7seg:DIS2.sseg[1]
+saida7seg[16] <= hexa7seg:DIS2.sseg[2]
+saida7seg[17] <= hexa7seg:DIS2.sseg[3]
+saida7seg[18] <= hexa7seg:DIS2.sseg[4]
+saida7seg[19] <= hexa7seg:DIS2.sseg[5]
+saida7seg[20] <= hexa7seg:DIS2.sseg[6]
+saida7seg[21] <= hexa7seg:DIS3.sseg[0]
+saida7seg[22] <= hexa7seg:DIS3.sseg[1]
+saida7seg[23] <= hexa7seg:DIS3.sseg[2]
+saida7seg[24] <= hexa7seg:DIS3.sseg[3]
+saida7seg[25] <= hexa7seg:DIS3.sseg[4]
+saida7seg[26] <= hexa7seg:DIS3.sseg[5]
+saida7seg[27] <= hexa7seg:DIS3.sseg[6]
+leds[0] <= JogoReacao_v1:JOGO_REAC.leds[0]
+leds[1] <= JogoReacao_v1:JOGO_REAC.leds[1]
+leds[2] <= JogoReacao_v1:JOGO_REAC.leds[2]
+leds[3] <= JogoReacao_v1:JOGO_REAC.leds[3]
+leds[4] <= JogoReacao_v1:JOGO_REAC.leds[4]
+leds[5] <= JogoReacao_v1:JOGO_REAC.leds[5]
+leds[6] <= JogoReacao_v1:JOGO_REAC.leds[6]
+leds[7] <= JogoReacao_v1:JOGO_REAC.leds[7]
+leds[8] <= JogoReacao_v1:JOGO_REAC.leds[8]
+leds[9] <= JogoReacao_v1:JOGO_REAC.leds[9]
+jogadasFeitas_db[0] <= contador_modm:STATE_COUNT.Q[0]
+jogadasFeitas_db[1] <= contador_modm:STATE_COUNT.Q[1]
+gameover_db <= controladorFinal:FINAL.pronto
+randContador_db[0] <= RNG:RANDOM.pseudoout[0]
+randContador_db[1] <= RNG:RANDOM.pseudoout[1]
+estadoAtual_db[0] <= estadoAtual[0].DB_MAX_OUTPUT_PORT_TYPE
+estadoAtual_db[1] <= estadoAtual[1].DB_MAX_OUTPUT_PORT_TYPE
+respostaJOGO_db <= controladorFinal:FINAL.respostaJOGO
+ledsPecas[0] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+ledsPecas[1] <= ledsPecas.DB_MAX_OUTPUT_PORT_TYPE
+ledsPecas[2] <= ledsPecas.DB_MAX_OUTPUT_PORT_TYPE
+dis4[0] <= hexa7seg:DB_ESTADO_7SEG.sseg[0]
+dis4[1] <= hexa7seg:DB_ESTADO_7SEG.sseg[1]
+dis4[2] <= hexa7seg:DB_ESTADO_7SEG.sseg[2]
+dis4[3] <= hexa7seg:DB_ESTADO_7SEG.sseg[3]
+dis4[4] <= hexa7seg:DB_ESTADO_7SEG.sseg[4]
+dis4[5] <= hexa7seg:DB_ESTADO_7SEG.sseg[5]
+dis4[6] <= hexa7seg:DB_ESTADO_7SEG.sseg[6]
+
+
+|Formex_v2|Formex:JOGO|controladorFinal:FINAL
+jogar => Selector0.IN3
+jogar => Eprox.INICIAL.DATAB
+resposta => Eprox.OUTPUTSELECT
+resposta => Eprox.OUTPUTSELECT
+resposta => Eprox.DATAA
+resposta => Selector3.IN3
+resposta => respostaJOGO.DATAIN
+resposta => Selector0.IN1
+reset => Eatual~3.DATAIN
+clock => Eatual~1.DATAIN
+rand[0] => ~NO_FANOUT~
+rand[1] => ~NO_FANOUT~
+sel_mux[0] => ~NO_FANOUT~
+sel_mux[1] => ~NO_FANOUT~
+error => Eprox.DATAA
+error => Eprox.DATAA
+gameover => Eprox.OUTPUTSELECT
+gameover => Eprox.OUTPUTSELECT
+gameover => Eprox.OUTPUTSELECT
+gameover => Selector2.IN3
+pronto <= pronto.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[0] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[1] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[2] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[3] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+jogarJOGO <= jogarJOGO.DB_MAX_OUTPUT_PORT_TYPE
+respostaJOGO <= resposta.DB_MAX_OUTPUT_PORT_TYPE
+resetJOGO <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC
+jogar => controladorJogo:CONTROLADOR.jogar
+resposta => interface_leds_botoes_v2:INTERFACE.resposta
+reset => reset_in2.IN1
+reset => controladorJogo:CONTROLADOR.reset
+clock => interface_leds_botoes_v2:INTERFACE.clock
+clock => medidor_largura:MEDIDOR.clock
+clock => controladorJogo:CONTROLADOR.clock
+sel_mux[0] => mux4x1_nbits:MUX_DISP0.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_DISP1.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_DISP2.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_DISP3.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_DISP4.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_DISP5.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED0.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED1.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED2.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED3.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED4.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED5.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED6.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED7.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED8.S[0]
+sel_mux[0] => mux4x1_nbits:MUX_LED9.S[0]
+sel_mux[1] => mux4x1_nbits:MUX_DISP0.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_DISP1.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_DISP2.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_DISP3.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_DISP4.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_DISP5.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED0.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED1.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED2.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED3.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED4.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED5.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED6.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED7.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED8.S[1]
+sel_mux[1] => mux4x1_nbits:MUX_LED9.S[1]
+ligado <= controladorJogo:CONTROLADOR.ligado
+pulso <= interface_leds_botoes_v2:INTERFACE.pulso
+estimulo <= interface_leds_botoes_v2:INTERFACE.estimulo
+erro <= controladorJogo:CONTROLADOR.saidaErro
+pronto <= controladorJogo:CONTROLADOR.pronto
+tempo[0] <= mux2x1_nbits:MUX.Y[0]
+tempo[1] <= mux2x1_nbits:MUX.Y[1]
+tempo[2] <= mux2x1_nbits:MUX.Y[2]
+tempo[3] <= mux2x1_nbits:MUX.Y[3]
+tempo[4] <= mux2x1_nbits:MUX.Y[4]
+tempo[5] <= mux2x1_nbits:MUX.Y[5]
+tempo[6] <= mux2x1_nbits:MUX.Y[6]
+tempo[7] <= mux2x1_nbits:MUX.Y[7]
+tempo[8] <= mux2x1_nbits:MUX.Y[8]
+tempo[9] <= mux2x1_nbits:MUX.Y[9]
+tempo[10] <= mux2x1_nbits:MUX.Y[10]
+tempo[11] <= mux2x1_nbits:MUX.Y[11]
+tempo[12] <= mux2x1_nbits:MUX.Y[12]
+tempo[13] <= mux2x1_nbits:MUX.Y[13]
+tempo[14] <= mux2x1_nbits:MUX.Y[14]
+tempo[15] <= mux2x1_nbits:MUX.Y[15]
+db_PInter <= interface_leds_botoes_v2:INTERFACE.pronto
+db_PMed <= medidor_largura:MEDIDOR.pronto
+db_estado_7[0] <= hexa7seg:DIS_ESTADO.sseg[0]
+db_estado_7[1] <= hexa7seg:DIS_ESTADO.sseg[1]
+db_estado_7[2] <= hexa7seg:DIS_ESTADO.sseg[2]
+db_estado_7[3] <= hexa7seg:DIS_ESTADO.sseg[3]
+db_estado_7[4] <= hexa7seg:DIS_ESTADO.sseg[4]
+db_estado_7[5] <= hexa7seg:DIS_ESTADO.sseg[5]
+db_estado_7[6] <= hexa7seg:DIS_ESTADO.sseg[6]
+saida7seg[0] <= hexa7seg:DIS0.sseg[0]
+saida7seg[1] <= hexa7seg:DIS0.sseg[1]
+saida7seg[2] <= hexa7seg:DIS0.sseg[2]
+saida7seg[3] <= hexa7seg:DIS0.sseg[3]
+saida7seg[4] <= hexa7seg:DIS0.sseg[4]
+saida7seg[5] <= hexa7seg:DIS0.sseg[5]
+saida7seg[6] <= hexa7seg:DIS0.sseg[6]
+saida7seg[7] <= hexa7seg:DIS1.sseg[0]
+saida7seg[8] <= hexa7seg:DIS1.sseg[1]
+saida7seg[9] <= hexa7seg:DIS1.sseg[2]
+saida7seg[10] <= hexa7seg:DIS1.sseg[3]
+saida7seg[11] <= hexa7seg:DIS1.sseg[4]
+saida7seg[12] <= hexa7seg:DIS1.sseg[5]
+saida7seg[13] <= hexa7seg:DIS1.sseg[6]
+saida7seg[14] <= hexa7seg:DIS2.sseg[0]
+saida7seg[15] <= hexa7seg:DIS2.sseg[1]
+saida7seg[16] <= hexa7seg:DIS2.sseg[2]
+saida7seg[17] <= hexa7seg:DIS2.sseg[3]
+saida7seg[18] <= hexa7seg:DIS2.sseg[4]
+saida7seg[19] <= hexa7seg:DIS2.sseg[5]
+saida7seg[20] <= hexa7seg:DIS2.sseg[6]
+saida7seg[21] <= hexa7seg:DIS3.sseg[0]
+saida7seg[22] <= hexa7seg:DIS3.sseg[1]
+saida7seg[23] <= hexa7seg:DIS3.sseg[2]
+saida7seg[24] <= hexa7seg:DIS3.sseg[3]
+saida7seg[25] <= hexa7seg:DIS3.sseg[4]
+saida7seg[26] <= hexa7seg:DIS3.sseg[5]
+saida7seg[27] <= hexa7seg:DIS3.sseg[6]
+leds[0] <= mux4x1_nbits:MUX_LED0.Y[0]
+leds[1] <= mux4x1_nbits:MUX_LED1.Y[0]
+leds[2] <= mux4x1_nbits:MUX_LED2.Y[0]
+leds[3] <= mux4x1_nbits:MUX_LED3.Y[0]
+leds[4] <= mux4x1_nbits:MUX_LED4.Y[0]
+leds[5] <= mux4x1_nbits:MUX_LED5.Y[0]
+leds[6] <= mux4x1_nbits:MUX_LED6.Y[0]
+leds[7] <= mux4x1_nbits:MUX_LED7.Y[0]
+leds[8] <= mux4x1_nbits:MUX_LED8.Y[0]
+leds[9] <= mux4x1_nbits:MUX_LED9.Y[0]
+dis4[0] <= hexa7seg:DIS_VAZIO.sseg[0]
+dis4[1] <= hexa7seg:DIS_VAZIO.sseg[1]
+dis4[2] <= hexa7seg:DIS_VAZIO.sseg[2]
+dis4[3] <= hexa7seg:DIS_VAZIO.sseg[3]
+dis4[4] <= hexa7seg:DIS_VAZIO.sseg[4]
+dis4[5] <= hexa7seg:DIS_VAZIO.sseg[5]
+dis4[6] <= hexa7seg:DIS_VAZIO.sseg[6]
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|interface_leds_botoes_v2:INTERFACE
+clock => contador_modm:CONT_INICIO.clock
+clock => interface_FSM_v4:FSM.clock
+clock => db_clock.DATAIN
+reset => latch_sr:LATCH.r
+reset => interface_FSM_v4:FSM.reset
+iniciar => interface_FSM_v4:FSM.iniciar
+resposta => latch_sr:LATCH.s
+resposta => interface_FSM_v4:FSM.resposta
+ligado <= interface_FSM_v4:FSM.ligado
+estimulo <= interface_FSM_v4:FSM.estimulo_sin
+pulso <= geraPulse:PULSE.pulso
+erro <= interface_FSM_v4:FSM.erro_sin
+pronto <= interface_FSM_v4:FSM.pronto
+estado[0] <= interface_FSM_v4:FSM.estado[0]
+estado[1] <= interface_FSM_v4:FSM.estado[1]
+estado[2] <= interface_FSM_v4:FSM.estado[2]
+estado[3] <= interface_FSM_v4:FSM.estado[3]
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro <= interface_FSM_v4:FSM.erro_sin
+db_estimulo <= interface_FSM_v4:FSM.estimulo_sin
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|interface_leds_botoes_v2:INTERFACE|contador_modm:CONT_INICIO
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+zera => IQ[0].ACLR
+zera => IQ[1].ACLR
+conta => IQ[0].ENA
+conta => IQ[1].ENA
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|interface_leds_botoes_v2:INTERFACE|latch_sr:LATCH
+s => iq.IN0
+r => iq.IN1
+r => comb.IN1
+r => comb.IN1
+q <= iq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|interface_leds_botoes_v2:INTERFACE|geraPulse:PULSE
+estimulo => pulso.IN0
+ligado => pulso.IN1
+resp_latch => pulso.OUTPUTSELECT
+resp_latch => pulso.IN1
+pulso <= pulso.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|interface_leds_botoes_v2:INTERFACE|Interface_FSM_v4:FSM
+clock => db_clock.DATAIN
+clock => Ereg~1.DATAIN
+reset => Ereg~3.DATAIN
+iniciar => Selector0.IN4
+iniciar => Eprox.INICIAL.DATAB
+iniciar => Selector3.IN2
+resposta => Eprox.DATAA
+resposta => Eprox.ESPERA.DATAB
+resposta => Eprox.DATAA
+resposta => Selector2.IN1
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Selector2.IN3
+erro_sin <= erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+estimulo_sin <= estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+ligado <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+zera_ci <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+conta_ci <= conta_ci.DB_MAX_OUTPUT_PORT_TYPE
+pronto <= WideNor2.DB_MAX_OUTPUT_PORT_TYPE
+estado[0] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro_sin <= db_erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+db_estimulo_sin <= db_estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR
+clock => controlador:UC.clock
+clock => contador16bits_mod10:CONT.clock
+clock => registrador16bits:REG.clock
+clock => db_clock.DATAIN
+reset => controlador:UC.reset
+liga => controlador:UC.liga
+sinal => controlador:UC.sinal
+display0[0] <= registrador16bits:REG.Q[0]
+display0[1] <= registrador16bits:REG.Q[1]
+display0[2] <= registrador16bits:REG.Q[2]
+display0[3] <= registrador16bits:REG.Q[3]
+display1[0] <= registrador16bits:REG.Q[4]
+display1[1] <= registrador16bits:REG.Q[5]
+display1[2] <= registrador16bits:REG.Q[6]
+display1[3] <= registrador16bits:REG.Q[7]
+display2[0] <= registrador16bits:REG.Q[8]
+display2[1] <= registrador16bits:REG.Q[9]
+display2[2] <= registrador16bits:REG.Q[10]
+display2[3] <= registrador16bits:REG.Q[11]
+display3[0] <= registrador16bits:REG.Q[12]
+display3[1] <= registrador16bits:REG.Q[13]
+display3[2] <= registrador16bits:REG.Q[14]
+display3[3] <= registrador16bits:REG.Q[15]
+display5[0] <= controlador:UC.estado[0]
+display5[1] <= controlador:UC.estado[1]
+display5[2] <= controlador:UC.estado[2]
+display5[3] <= controlador:UC.estado[3]
+fim <= contador16bits_mod10:CONT.rco
+pronto <= controlador:UC.pronto
+db_largura[0] <= registrador16bits:REG.Q[0]
+db_largura[1] <= registrador16bits:REG.Q[1]
+db_largura[2] <= registrador16bits:REG.Q[2]
+db_largura[3] <= registrador16bits:REG.Q[3]
+db_largura[4] <= registrador16bits:REG.Q[4]
+db_largura[5] <= registrador16bits:REG.Q[5]
+db_largura[6] <= registrador16bits:REG.Q[6]
+db_largura[7] <= registrador16bits:REG.Q[7]
+db_largura[8] <= registrador16bits:REG.Q[8]
+db_largura[9] <= registrador16bits:REG.Q[9]
+db_largura[10] <= registrador16bits:REG.Q[10]
+db_largura[11] <= registrador16bits:REG.Q[11]
+db_largura[12] <= registrador16bits:REG.Q[12]
+db_largura[13] <= registrador16bits:REG.Q[13]
+db_largura[14] <= registrador16bits:REG.Q[14]
+db_largura[15] <= registrador16bits:REG.Q[15]
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_zeraCont <= controlador:UC.zeraCont
+db_contacont <= controlador:UC.contaCont
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|controlador:UC
+clock => Ereg~1.DATAIN
+reset => Ereg~3.DATAIN
+liga => Selector1.IN3
+liga => Eprox.OUTPUTSELECT
+liga => Eprox.OUTPUTSELECT
+liga => Selector0.IN1
+sinal => Eprox.DATAA
+sinal => Selector2.IN4
+sinal => Selector1.IN1
+sinal => Eprox.DATAA
+sinal => Eprox.FIM.DATAB
+zeraCont <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+contaCont <= contaCont.DB_MAX_OUTPUT_PORT_TYPE
+pronto <= pronto.DB_MAX_OUTPUT_PORT_TYPE
+estado[0] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+carregaReg <= carregaReg.DB_MAX_OUTPUT_PORT_TYPE
+zeraReg <= zeraReg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|contador16bits_mod10:CONT
+clock => contador_162:CONT1.clock
+clock => contador_162:CONT2.clock
+clock => contador_162:CONT3.clock
+clock => contador_162:CONT4.clock
+zera => contador_162:CONT1.clr
+zera => contador_162:CONT2.clr
+zera => contador_162:CONT3.clr
+zera => contador_162:CONT4.clr
+conta => contador_162:CONT1.enp
+conta => contador_162:CONT2.enp
+conta => contador_162:CONT3.enp
+conta => contador_162:CONT4.enp
+Q[0] <= contador_162:CONT1.Q[0]
+Q[1] <= contador_162:CONT1.Q[1]
+Q[2] <= contador_162:CONT1.Q[2]
+Q[3] <= contador_162:CONT1.Q[3]
+Q[4] <= contador_162:CONT2.Q[0]
+Q[5] <= contador_162:CONT2.Q[1]
+Q[6] <= contador_162:CONT2.Q[2]
+Q[7] <= contador_162:CONT2.Q[3]
+Q[8] <= contador_162:CONT3.Q[0]
+Q[9] <= contador_162:CONT3.Q[1]
+Q[10] <= contador_162:CONT3.Q[2]
+Q[11] <= contador_162:CONT3.Q[3]
+Q[12] <= contador_162:CONT4.Q[0]
+Q[13] <= contador_162:CONT4.Q[1]
+Q[14] <= contador_162:CONT4.Q[2]
+Q[15] <= contador_162:CONT4.Q[3]
+rco <= contador_162:CONT4.rco
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|contador16bits_mod10:CONT|contador_162:CONT1
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|contador16bits_mod10:CONT|contador_162:CONT2
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|contador16bits_mod10:CONT|contador_162:CONT3
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|contador16bits_mod10:CONT|contador_162:CONT4
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+clr => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ld => IQ.OUTPUTSELECT
+ent => process_0.IN0
+ent => process_0.IN1
+enp => process_0.IN1
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+rco <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|medidor_largura:MEDIDOR|registrador16bits:REG
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clock => IQ[4].CLK
+clock => IQ[5].CLK
+clock => IQ[6].CLK
+clock => IQ[7].CLK
+clock => IQ[8].CLK
+clock => IQ[9].CLK
+clock => IQ[10].CLK
+clock => IQ[11].CLK
+clock => IQ[12].CLK
+clock => IQ[13].CLK
+clock => IQ[14].CLK
+clock => IQ[15].CLK
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+D[4] => IQ.DATAB
+D[5] => IQ.DATAB
+D[6] => IQ.DATAB
+D[7] => IQ.DATAB
+D[8] => IQ.DATAB
+D[9] => IQ.DATAB
+D[10] => IQ.DATAB
+D[11] => IQ.DATAB
+D[12] => IQ.DATAB
+D[13] => IQ.DATAB
+D[14] => IQ.DATAB
+D[15] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= IQ[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= IQ[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= IQ[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= IQ[7].DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= IQ[8].DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= IQ[9].DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= IQ[10].DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= IQ[11].DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= IQ[12].DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= IQ[13].DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= IQ[14].DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= IQ[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|controladorJogo:CONTROLADOR
+jogar => Eprox.LIGA1.DATAB
+jogar => Selector0.IN2
+clock => Eatual~1.DATAIN
+reset => Eatual~3.DATAIN
+erroInterface => Eprox.OUTPUTSELECT
+erroInterface => Eprox.OUTPUTSELECT
+erroInterface => Eprox.OUTPUTSELECT
+prontoInterface => Eprox.DATAA
+prontoInterface => Eprox.DATAA
+prontoMedidor => ~NO_FANOUT~
+fimEspera => ~NO_FANOUT~
+fimContador => Eprox.OUTPUTSELECT
+fimContador => Eprox.OUTPUTSELECT
+fimContador => Eprox.DATAA
+estado[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ligaEspera <= ligaEspera.DB_MAX_OUTPUT_PORT_TYPE
+ligaInterface <= ligaInterface.DB_MAX_OUTPUT_PORT_TYPE
+ligaMedidor <= ligaMedidor.DB_MAX_OUTPUT_PORT_TYPE
+reset_out <= reset_out.DB_MAX_OUTPUT_PORT_TYPE
+ligado <= ligado.DB_MAX_OUTPUT_PORT_TYPE
+pronto <= pronto.DB_MAX_OUTPUT_PORT_TYPE
+saidaErro <= saidaErro.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux2x1_nbits:MUX
+A[0] => Selector15.IN3
+A[1] => Selector14.IN3
+A[2] => Selector13.IN3
+A[3] => Selector12.IN3
+A[4] => Selector11.IN3
+A[5] => Selector10.IN3
+A[6] => Selector9.IN3
+A[7] => Selector8.IN3
+A[8] => Selector7.IN3
+A[9] => Selector6.IN3
+A[10] => Selector5.IN3
+A[11] => Selector4.IN3
+A[12] => Selector3.IN3
+A[13] => Selector2.IN3
+A[14] => Selector1.IN3
+A[15] => Selector0.IN3
+B[0] => Selector15.IN4
+B[1] => Selector14.IN4
+B[2] => Selector13.IN4
+B[3] => Selector12.IN4
+B[4] => Selector11.IN4
+B[5] => Selector10.IN4
+B[6] => Selector9.IN4
+B[7] => Selector8.IN4
+B[8] => Selector7.IN4
+B[9] => Selector6.IN4
+B[10] => Selector5.IN4
+B[11] => Selector4.IN4
+B[12] => Selector3.IN4
+B[13] => Selector2.IN4
+B[14] => Selector1.IN4
+B[15] => Selector0.IN4
+S => Selector0.IN5
+S => Selector1.IN5
+S => Selector2.IN5
+S => Selector3.IN5
+S => Selector4.IN5
+S => Selector5.IN5
+S => Selector6.IN5
+S => Selector7.IN5
+S => Selector8.IN5
+S => Selector9.IN5
+S => Selector10.IN5
+S => Selector11.IN5
+S => Selector12.IN5
+S => Selector13.IN5
+S => Selector14.IN5
+S => Selector15.IN5
+S => Selector0.IN1
+S => Selector1.IN1
+S => Selector2.IN1
+S => Selector3.IN1
+S => Selector4.IN1
+S => Selector5.IN1
+S => Selector6.IN1
+S => Selector7.IN1
+S => Selector8.IN1
+S => Selector9.IN1
+S => Selector10.IN1
+S => Selector11.IN1
+S => Selector12.IN1
+S => Selector13.IN1
+S => Selector14.IN1
+S => Selector15.IN1
+Y[0] <= Selector15.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Selector14.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Selector13.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Selector12.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Selector11.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Selector10.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Selector9.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Selector8.DB_MAX_OUTPUT_PORT_TYPE
+Y[8] <= Selector7.DB_MAX_OUTPUT_PORT_TYPE
+Y[9] <= Selector6.DB_MAX_OUTPUT_PORT_TYPE
+Y[10] <= Selector5.DB_MAX_OUTPUT_PORT_TYPE
+Y[11] <= Selector4.DB_MAX_OUTPUT_PORT_TYPE
+Y[12] <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+Y[13] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+Y[14] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+Y[15] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS3
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS2
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS1
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS0
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS_ESTADO
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|hexa7seg:DIS_VAZIO
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP0
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP1
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP2
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP3
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP4
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_DISP5
+A[0] => Mux3.IN0
+A[1] => Mux2.IN0
+A[2] => Mux1.IN0
+A[3] => Mux0.IN0
+B[0] => Mux3.IN1
+B[1] => Mux2.IN1
+B[2] => Mux1.IN1
+B[3] => Mux0.IN1
+C[0] => Mux3.IN2
+C[1] => Mux2.IN2
+C[2] => Mux1.IN2
+C[3] => Mux0.IN2
+D[0] => Mux3.IN3
+D[1] => Mux2.IN3
+D[2] => Mux1.IN3
+D[3] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => Mux2.IN5
+S[0] => Mux3.IN5
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => Mux2.IN4
+S[1] => Mux3.IN4
+Y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED0
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED1
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED2
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED3
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED4
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED5
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED6
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED7
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED8
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|JogoReacao_v1:JOGO_REAC|mux4x1_nbits:MUX_LED9
+A[0] => Mux0.IN0
+B[0] => Mux0.IN1
+C[0] => Mux0.IN2
+D[0] => Mux0.IN3
+S[0] => Mux0.IN5
+S[1] => Mux0.IN4
+Y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:DB_ESTADO_7SEG
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|RNG:RANDOM
+pseudoclock => contador_modm:CONTA.clock
+pseudoout[0] <= contador_modm:CONTA.Q[0]
+pseudoout[1] <= contador_modm:CONTA.Q[1]
+
+
+|Formex_v2|Formex:JOGO|RNG:RANDOM|contador_modm:CONTA
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+zera => IQ[0].ACLR
+zera => IQ[1].ACLR
+conta => IQ[0].ENA
+conta => IQ[1].ENA
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:RANDOM_DISP
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|contador_modm:STATE_COUNT
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+zera => IQ[0].ACLR
+zera => IQ[1].ACLR
+conta => IQ[0].ENA
+conta => IQ[1].ENA
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR
+a[0] => somador_decimal:S1.a[0]
+a[1] => somador_decimal:S1.a[1]
+a[2] => somador_decimal:S1.a[2]
+a[3] => somador_decimal:S1.a[3]
+a[4] => somador_decimal:S2.a[0]
+a[5] => somador_decimal:S2.a[1]
+a[6] => somador_decimal:S2.a[2]
+a[7] => somador_decimal:S2.a[3]
+a[8] => somador_decimal:S3.a[0]
+a[9] => somador_decimal:S3.a[1]
+a[10] => somador_decimal:S3.a[2]
+a[11] => somador_decimal:S3.a[3]
+a[12] => somador_decimal:S4.a[0]
+a[13] => somador_decimal:S4.a[1]
+a[14] => somador_decimal:S4.a[2]
+a[15] => somador_decimal:S4.a[3]
+b[0] => somador_decimal:S1.b[0]
+b[1] => somador_decimal:S1.b[1]
+b[2] => somador_decimal:S1.b[2]
+b[3] => somador_decimal:S1.b[3]
+b[4] => somador_decimal:S2.b[0]
+b[5] => somador_decimal:S2.b[1]
+b[6] => somador_decimal:S2.b[2]
+b[7] => somador_decimal:S2.b[3]
+b[8] => somador_decimal:S3.b[0]
+b[9] => somador_decimal:S3.b[1]
+b[10] => somador_decimal:S3.b[2]
+b[11] => somador_decimal:S3.b[3]
+b[12] => somador_decimal:S4.b[0]
+b[13] => somador_decimal:S4.b[1]
+b[14] => somador_decimal:S4.b[2]
+b[15] => somador_decimal:S4.b[3]
+vem_um => somador_decimal:S1.vem_um
+soma[0] <= somador_decimal:S1.soma[0]
+soma[1] <= somador_decimal:S1.soma[1]
+soma[2] <= somador_decimal:S1.soma[2]
+soma[3] <= somador_decimal:S1.soma[3]
+soma[4] <= somador_decimal:S2.soma[0]
+soma[5] <= somador_decimal:S2.soma[1]
+soma[6] <= somador_decimal:S2.soma[2]
+soma[7] <= somador_decimal:S2.soma[3]
+soma[8] <= somador_decimal:S3.soma[0]
+soma[9] <= somador_decimal:S3.soma[1]
+soma[10] <= somador_decimal:S3.soma[2]
+soma[11] <= somador_decimal:S3.soma[3]
+soma[12] <= somador_decimal:S4.soma[0]
+soma[13] <= somador_decimal:S4.soma[1]
+soma[14] <= somador_decimal:S4.soma[2]
+soma[15] <= somador_decimal:S4.soma[3]
+vai_um <= somador_decimal:S4.vai_um
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1
+a[0] => somador_4bits_estrutural:s1.a[0]
+a[1] => somador_4bits_estrutural:s1.a[1]
+a[2] => somador_4bits_estrutural:s1.a[2]
+a[3] => somador_4bits_estrutural:s1.a[3]
+b[0] => somador_4bits_estrutural:s1.b[0]
+b[1] => somador_4bits_estrutural:s1.b[1]
+b[2] => somador_4bits_estrutural:s1.b[2]
+b[3] => somador_4bits_estrutural:s1.b[3]
+vem_um => somador_4bits_estrutural:s1.c0
+soma[0] <= somador_4bits_estrutural:s2.s[0]
+soma[1] <= somador_4bits_estrutural:s2.s[1]
+soma[2] <= somador_4bits_estrutural:s2.s[2]
+soma[3] <= somador_4bits_estrutural:s2.s[3]
+vai_um <= gera_vaium:g1.vaium
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s1
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s1|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s1|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s1|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s1|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s2
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s2|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s2|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s2|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|somador_4bits_estrutural:s2|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S1|gera_vaium:g1
+soma[0] => ~NO_FANOUT~
+soma[1] => vaium.IN0
+soma[2] => vaium.IN1
+soma[3] => vaium.IN1
+cout => vaium.IN1
+vaium <= vaium.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2
+a[0] => somador_4bits_estrutural:s1.a[0]
+a[1] => somador_4bits_estrutural:s1.a[1]
+a[2] => somador_4bits_estrutural:s1.a[2]
+a[3] => somador_4bits_estrutural:s1.a[3]
+b[0] => somador_4bits_estrutural:s1.b[0]
+b[1] => somador_4bits_estrutural:s1.b[1]
+b[2] => somador_4bits_estrutural:s1.b[2]
+b[3] => somador_4bits_estrutural:s1.b[3]
+vem_um => somador_4bits_estrutural:s1.c0
+soma[0] <= somador_4bits_estrutural:s2.s[0]
+soma[1] <= somador_4bits_estrutural:s2.s[1]
+soma[2] <= somador_4bits_estrutural:s2.s[2]
+soma[3] <= somador_4bits_estrutural:s2.s[3]
+vai_um <= gera_vaium:g1.vaium
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s1
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s1|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s1|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s1|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s1|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s2
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s2|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s2|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s2|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|somador_4bits_estrutural:s2|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S2|gera_vaium:g1
+soma[0] => ~NO_FANOUT~
+soma[1] => vaium.IN0
+soma[2] => vaium.IN1
+soma[3] => vaium.IN1
+cout => vaium.IN1
+vaium <= vaium.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3
+a[0] => somador_4bits_estrutural:s1.a[0]
+a[1] => somador_4bits_estrutural:s1.a[1]
+a[2] => somador_4bits_estrutural:s1.a[2]
+a[3] => somador_4bits_estrutural:s1.a[3]
+b[0] => somador_4bits_estrutural:s1.b[0]
+b[1] => somador_4bits_estrutural:s1.b[1]
+b[2] => somador_4bits_estrutural:s1.b[2]
+b[3] => somador_4bits_estrutural:s1.b[3]
+vem_um => somador_4bits_estrutural:s1.c0
+soma[0] <= somador_4bits_estrutural:s2.s[0]
+soma[1] <= somador_4bits_estrutural:s2.s[1]
+soma[2] <= somador_4bits_estrutural:s2.s[2]
+soma[3] <= somador_4bits_estrutural:s2.s[3]
+vai_um <= gera_vaium:g1.vaium
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s1
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s1|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s1|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s1|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s1|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s2
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s2|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s2|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s2|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|somador_4bits_estrutural:s2|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S3|gera_vaium:g1
+soma[0] => ~NO_FANOUT~
+soma[1] => vaium.IN0
+soma[2] => vaium.IN1
+soma[3] => vaium.IN1
+cout => vaium.IN1
+vaium <= vaium.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4
+a[0] => somador_4bits_estrutural:s1.a[0]
+a[1] => somador_4bits_estrutural:s1.a[1]
+a[2] => somador_4bits_estrutural:s1.a[2]
+a[3] => somador_4bits_estrutural:s1.a[3]
+b[0] => somador_4bits_estrutural:s1.b[0]
+b[1] => somador_4bits_estrutural:s1.b[1]
+b[2] => somador_4bits_estrutural:s1.b[2]
+b[3] => somador_4bits_estrutural:s1.b[3]
+vem_um => somador_4bits_estrutural:s1.c0
+soma[0] <= somador_4bits_estrutural:s2.s[0]
+soma[1] <= somador_4bits_estrutural:s2.s[1]
+soma[2] <= somador_4bits_estrutural:s2.s[2]
+soma[3] <= somador_4bits_estrutural:s2.s[3]
+vai_um <= gera_vaium:g1.vaium
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s1
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s1|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s1|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s1|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s1|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s2
+a[0] => somador_completo:S1.a
+a[1] => somador_completo:S2.a
+a[2] => somador_completo:S3.a
+a[3] => somador_completo:S4.a
+b[0] => somador_completo:S1.b
+b[1] => somador_completo:S2.b
+b[2] => somador_completo:S3.b
+b[3] => somador_completo:S4.b
+c0 => somador_completo:S1.cin
+s[0] <= somador_completo:S1.s
+s[1] <= somador_completo:S2.s
+s[2] <= somador_completo:S3.s
+s[3] <= somador_completo:S4.s
+c4 <= somador_completo:S4.cout
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s2|somador_completo:S1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s2|somador_completo:S2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s2|somador_completo:S3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|somador_4bits_estrutural:s2|somador_completo:S4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN0
+cin => s.IN1
+cin => cout.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|somador_decimal_4digitos:SOMADOR|somador_decimal:S4|gera_vaium:g1
+soma[0] => ~NO_FANOUT~
+soma[1] => vaium.IN0
+soma[2] => vaium.IN1
+soma[3] => vaium.IN1
+cout => vaium.IN1
+vaium <= vaium.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|registrador16bits:REG
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clock => IQ[4].CLK
+clock => IQ[5].CLK
+clock => IQ[6].CLK
+clock => IQ[7].CLK
+clock => IQ[8].CLK
+clock => IQ[9].CLK
+clock => IQ[10].CLK
+clock => IQ[11].CLK
+clock => IQ[12].CLK
+clock => IQ[13].CLK
+clock => IQ[14].CLK
+clock => IQ[15].CLK
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+D[4] => IQ.DATAB
+D[5] => IQ.DATAB
+D[6] => IQ.DATAB
+D[7] => IQ.DATAB
+D[8] => IQ.DATAB
+D[9] => IQ.DATAB
+D[10] => IQ.DATAB
+D[11] => IQ.DATAB
+D[12] => IQ.DATAB
+D[13] => IQ.DATAB
+D[14] => IQ.DATAB
+D[15] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= IQ[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= IQ[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= IQ[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= IQ[7].DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= IQ[8].DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= IQ[9].DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= IQ[10].DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= IQ[11].DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= IQ[12].DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= IQ[13].DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= IQ[14].DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= IQ[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:DIS3
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:DIS2
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:DIS1
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|Formex:JOGO|hexa7seg:DIS0
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Formex_v2|registrador16bits:REG1
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+clock => IQ[4].CLK
+clock => IQ[5].CLK
+clock => IQ[6].CLK
+clock => IQ[7].CLK
+clock => IQ[8].CLK
+clock => IQ[9].CLK
+clock => IQ[10].CLK
+clock => IQ[11].CLK
+clock => IQ[12].CLK
+clock => IQ[13].CLK
+clock => IQ[14].CLK
+clock => IQ[15].CLK
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+clear => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+enable => IQ.OUTPUTSELECT
+D[0] => IQ.DATAB
+D[1] => IQ.DATAB
+D[2] => IQ.DATAB
+D[3] => IQ.DATAB
+D[4] => IQ.DATAB
+D[5] => IQ.DATAB
+D[6] => IQ.DATAB
+D[7] => IQ.DATAB
+D[8] => IQ.DATAB
+D[9] => IQ.DATAB
+D[10] => IQ.DATAB
+D[11] => IQ.DATAB
+D[12] => IQ.DATAB
+D[13] => IQ.DATAB
+D[14] => IQ.DATAB
+D[15] => IQ.DATAB
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= IQ[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= IQ[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= IQ[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= IQ[7].DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= IQ[8].DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= IQ[9].DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= IQ[10].DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= IQ[11].DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= IQ[12].DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= IQ[13].DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= IQ[14].DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= IQ[15].DB_MAX_OUTPUT_PORT_TYPE
+
+

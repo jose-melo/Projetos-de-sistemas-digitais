@@ -1,0 +1,9 @@
+
+State Machine - |interface_leds_botoes_v2|Interface_FSM_v4:FSM|Ereg
+Name Ereg.FIM Ereg.ESPERA Ereg.ESTIMULO Ereg.ERRO Ereg.CONTANDO Ereg.INICIAL 
+Ereg.INICIAL 0 0 0 0 0 0 
+Ereg.CONTANDO 0 0 0 0 1 1 
+Ereg.ERRO 0 0 0 1 0 1 
+Ereg.ESTIMULO 0 0 1 0 0 1 
+Ereg.ESPERA 0 1 0 0 0 1 
+Ereg.FIM 1 0 0 0 0 1 

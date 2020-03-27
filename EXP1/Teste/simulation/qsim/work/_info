@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/Teste/simulation/qsim
+vTeste
+Z1 !s110 1578610055
+!i10b 1
+!s100 N4JjfEbjnQ^L;MUbo<0J]2
+I=ef001KE@4fSaO:@g8b@=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1578610054
+8Teste.vo
+FTeste.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1578610055.000000
+!s107 Teste.vo|
+!s90 -work|work|Teste.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@teste
+vTeste_vlg_vec_tst
+R1
+!i10b 1
+!s100 gH[m8zMhiLCNQkoHHaJRf1
+IYfEahojomKLNET=CIHj]Q1
+R2
+R0
+w1578610053
+8Teste.vwf.vt
+FTeste.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Teste.vwf.vt|
+!s90 -work|work|Teste.vwf.vt|
+!i113 1
+R5
+R6
+n@teste_vlg_vec_tst

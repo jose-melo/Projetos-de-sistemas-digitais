@@ -1,0 +1,25 @@
+
+State Machine - |JogoReacao_v1|controladorJogo:CONTROLADOR|Eatual
+Name Eatual.JOGOPRONTO Eatual.ERRO Eatual.LIGA Eatual.LIGA1 Eatual.INICIAL 
+Eatual.INICIAL 0 0 0 0 0 
+Eatual.LIGA1 0 0 0 1 1 
+Eatual.LIGA 0 0 1 0 1 
+Eatual.ERRO 0 1 0 0 1 
+Eatual.JOGOPRONTO 1 0 0 0 1 
+
+State Machine - |JogoReacao_v1|medidor_largura:MEDIDOR|controlador:UC|Ereg
+Name Ereg.FIM Ereg.ESPERA Ereg.CONTA Ereg.LIGADO Ereg.INICIAL 
+Ereg.INICIAL 0 0 0 0 0 
+Ereg.LIGADO 0 0 0 1 1 
+Ereg.CONTA 0 0 1 0 1 
+Ereg.ESPERA 0 1 0 0 1 
+Ereg.FIM 1 0 0 0 1 
+
+State Machine - |JogoReacao_v1|interface_leds_botoes_v2:INTERFACE|Interface_FSM_v4:FSM|Ereg
+Name Ereg.FIM Ereg.ESPERA Ereg.ESTIMULO Ereg.ERRO Ereg.CONTANDO Ereg.INICIAL 
+Ereg.INICIAL 0 0 0 0 0 0 
+Ereg.CONTANDO 0 0 0 0 1 1 
+Ereg.ERRO 0 0 0 1 0 1 
+Ereg.ESTIMULO 0 0 1 0 0 1 
+Ereg.ESPERA 0 1 0 0 0 1 
+Ereg.FIM 1 0 0 0 0 1 

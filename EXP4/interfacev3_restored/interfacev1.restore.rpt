@@ -1,0 +1,87 @@
+Restore Archived Project report for interfacev1
+Sun Jan 26 19:58:46 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Jan 26 19:58:46 2020 ;
+; Revision Name                   ; interfacev1                           ;
+; Top-level Entity Name           ; interface_leds_botoes_v2              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/jose/Desktop/LabDig/EXP4/interfacev3.qar' into the '/home/jose/Desktop/LabDig/EXP4/interfacev3_restored/' directory
+Info: Generated report 'interfacev1.restore.rpt'
+Info (23030): Evaluation of Tcl script /home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1049 megabytes
+    Info: Processing ended: Sun Jan 26 19:58:46 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-------------------------------------+
+; Files Restored                      ;
++-------------------------------------+
+; File Name                           ;
++-------------------------------------+
+; qar_info.json                       ;
+; Waveform.vwf                        ;
+; Waveform2.vwf                       ;
+; Waveform3.vwf                       ;
+; assignment_defaults.qdf             ;
+; contador_modm.vhd                   ;
+; geraPulse.vhd                       ;
+; hexa7seg.vhd                        ;
+; interface_FSM_v4.vhd                ;
+; interface_leds_botoes_v2.vhd        ;
+; interfacev1.qpf                     ;
+; interfacev1.qsf                     ;
+; interfacev1_assignment_defaults.qdf ;
+; latch_sr.vhd                        ;
++-------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

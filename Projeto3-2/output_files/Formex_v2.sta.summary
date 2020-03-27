@@ -1,0 +1,133 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -5.877
+TNS   : -235.314
+
+Type  : Slow 1100mV 85C Model Setup 'pseudoclock'
+Slack : -0.677
+TNS   : -1.926
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pseudoclock'
+Slack : 0.592
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clock'
+Slack : -1.425
+TNS   : -30.824
+
+Type  : Slow 1100mV 85C Model Removal 'clock'
+Slack : 1.066
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.724
+TNS   : -105.687
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pseudoclock'
+Slack : -0.724
+TNS   : -3.325
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -5.747
+TNS   : -229.153
+
+Type  : Slow 1100mV 0C Model Setup 'pseudoclock'
+Slack : -0.655
+TNS   : -1.795
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pseudoclock'
+Slack : 0.545
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clock'
+Slack : -1.364
+TNS   : -28.774
+
+Type  : Slow 1100mV 0C Model Removal 'clock'
+Slack : 1.015
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.724
+TNS   : -105.609
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pseudoclock'
+Slack : -0.724
+TNS   : -3.426
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -1.872
+TNS   : -51.976
+
+Type  : Fast 1100mV 85C Model Setup 'pseudoclock'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pseudoclock'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clock'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'clock'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.090
+TNS   : -8.099
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pseudoclock'
+Slack : -0.084
+TNS   : -0.248
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -1.634
+TNS   : -39.862
+
+Type  : Fast 1100mV 0C Model Setup 'pseudoclock'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pseudoclock'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clock'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'clock'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.089
+TNS   : -8.129
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pseudoclock'
+Slack : -0.086
+TNS   : -0.254
+
+------------------------------------------------------------

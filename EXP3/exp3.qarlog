@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP3/exp3.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP3/exp3.qar
+Date:		Tue Jan 21 00:05:48 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP3/Waveform.vwf
+/home/jose/Desktop/LabDig/EXP3/contador8bits (6).vhd
+/home/jose/Desktop/LabDig/EXP3/contador_163 (1).vhd
+/home/jose/Desktop/LabDig/EXP3/controlador.vhd
+/home/jose/Desktop/LabDig/EXP3/exp3.qpf
+/home/jose/Desktop/LabDig/EXP3/exp3.qsf
+/home/jose/Desktop/LabDig/EXP3/hexa7seg.vhd
+/home/jose/Desktop/LabDig/EXP3/medidor_largura.vhd
+/home/jose/Desktop/LabDig/EXP3/registrador8bits.vhd
+/home/jose/intelFPGA/18.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

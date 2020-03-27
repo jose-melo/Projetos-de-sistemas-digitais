@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/simulation/qsim
+Ejogoreacao_v1
+Z1 w1583159559
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+Z11 8JogoReacao_v1.vho
+Z12 FJogoReacao_v1.vho
+l0
+L38
+VMZ5TbXFXbR[;FAM=IYO8^1
+!s100 MkOCOdcYj8cX]U:XQeg:71
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1583159560
+!i10b 1
+Z15 !s108 1583159560.000000
+Z16 !s90 -work|work|JogoReacao_v1.vho|
+Z17 !s107 JogoReacao_v1.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 13 jogoreacao_v1 0 22 MZ5TbXFXbR[;FAM=IYO8^1
+l452
+L144
+VZ5SQNb@ZEiAT9@^RPSC];1
+!s100 Q_<J?ANjB]P84]cl@B`Nf3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Ejogoreacao_v1_vhd_vec_tst
+Z20 w1583159557
+R8
+R9
+R0
+Z21 8TesteMux3Ciclos.vwf.vht
+Z22 FTesteMux3Ciclos.vwf.vht
+l0
+L31
+VCZG^Ii84hI?cEHO2H4T[z1
+!s100 Kd_f:L2P4n[EN3aJU12bb1
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|TesteMux3Ciclos.vwf.vht|
+Z24 !s107 TesteMux3Ciclos.vwf.vht|
+!i113 1
+R18
+R19
+Ajogoreacao_v1_arch
+R8
+R9
+Z25 DEx4 work 25 jogoreacao_v1_vhd_vec_tst 0 22 CZG^Ii84hI?cEHO2H4T[z1
+l74
+L33
+VYnQ]IMK<iP8V71oY3]hd92
+!s100 J>flkZMJ_0=66V_D8U8N93
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19

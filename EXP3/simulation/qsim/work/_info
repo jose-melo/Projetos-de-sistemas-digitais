@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/EXP3/simulation/qsim
+Econtrolador
+Z1 w1579567212
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+Z11 8exp3.vho
+Z12 Fexp3.vho
+l0
+L38
+V=h4`DzCj21gD14SzGVRMn2
+!s100 gC1;z9Z@9_UG?oI1Cg4il3
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1579567213
+!i10b 1
+Z15 !s108 1579567213.000000
+Z16 !s90 -work|work|exp3.vho|
+Z17 !s107 exp3.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 11 controlador 0 22 =h4`DzCj21gD14SzGVRMn2
+l109
+L65
+V>jW[Tn6?7E<`fW=i[JPLk3
+!s100 YIX8SWbPzgY2d4H566W1k3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Econtrolador_vhd_vec_tst
+Z20 w1579567210
+R8
+R9
+R0
+Z21 8Waveform.vwf.vht
+Z22 FWaveform.vwf.vht
+l0
+L31
+Vh@P[lk5cDiB?BgZoAX:1Q3
+!s100 d6ZK`0>dPc1gEnS;XM^N?3
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R18
+R19
+Acontrolador_arch
+R8
+R9
+DEx4 work 23 controlador_vhd_vec_tst 0 22 h@P[lk5cDiB?BgZoAX:1Q3
+l56
+L33
+VA;hBzADz`j;HMfzIE;<@f3
+!s100 nGF5fa`gX5Y;EX2O38Aaz3
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
+Emedidor_largura
+Z25 w1579577211
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R0
+R11
+R12
+l0
+L38
+V_lf35Ggi;Jk2:z>D7XJM93
+!s100 _:ZdPEgoX2Mz]?aHe4]Rm3
+R13
+32
+Z26 !s110 1579577212
+!i10b 1
+Z27 !s108 1579577212.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 15 medidor_largura 0 22 _lf35Ggi;Jk2:z>D7XJM93
+l199
+L97
+VjoQRcVEUfUk?8_3agSXCY3
+!s100 7?=k0^0_^@DoYjV`UO3Zm1
+R13
+32
+R26
+!i10b 1
+R27
+R16
+R17
+!i113 1
+R18
+R19
+Emedidor_largura_vhd_vec_tst
+Z28 w1579577208
+R8
+R9
+R0
+Z29 8Waveform2.vwf.vht
+Z30 FWaveform2.vwf.vht
+l0
+L31
+Vf00`S]?TocI35^_R]:dle3
+!s100 [[gkYAFZnSkN<0XB_zCIm2
+R13
+32
+R26
+!i10b 1
+R27
+Z31 !s90 -work|work|Waveform2.vwf.vht|
+Z32 !s107 Waveform2.vwf.vht|
+!i113 1
+R18
+R19
+Amedidor_largura_arch
+R8
+R9
+Z33 DEx4 work 27 medidor_largura_vhd_vec_tst 0 22 f00`S]?TocI35^_R]:dle3
+l66
+L33
+VaioRaLPR2Ia:HGfJ79n9=3
+!s100 gP=n[=lE^Ynz@V76o:g:71
+R13
+32
+R26
+!i10b 1
+R27
+R31
+R32
+!i113 1
+R18
+R19

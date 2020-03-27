@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ligado",
+					"strict" : false
+				},
+				{
+					"name" : "pulso",
+					"strict" : false
+				},
+				{
+					"name" : "estimulo",
+					"strict" : false
+				},
+				{
+					"name" : "erro",
+					"strict" : false
+				},
+				{
+					"name" : "pronto",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[12]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[13]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[14]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[15]",
+					"strict" : false
+				},
+				{
+					"name" : "db_PInter",
+					"strict" : false
+				},
+				{
+					"name" : "db_PMed",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "resposta",
+					"strict" : false
+				},
+				{
+					"name" : "jogar",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

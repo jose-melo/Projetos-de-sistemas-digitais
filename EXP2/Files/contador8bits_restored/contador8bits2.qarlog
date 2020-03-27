@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2.qar
+Date:		Mon Jan 13 21:03:52 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/assignment_defaults.qdf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qpf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qsf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.vhd
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.vwf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador_163.vhd
+/home/jose/Desktop/contador163.vwf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Jan 15 09:21:00 2020
+Source archive file:	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2.qar
+Archive was extracted into	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Jan 15 09:23:24 2020
+Source archive file:	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2.qar
+Archive was extracted into	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Jan 15 09:26:01 2020
+Source archive file:	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2.qar
+Archive was extracted into	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits2_restored/
+		 - successfully.

@@ -1,0 +1,286 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/EXP5/ProjetoP1/simulation/qsim
+Econtroladorjogo
+Z1 w1580785176
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+Z11 8JogoReacao_v1.vho
+Z12 FJogoReacao_v1.vho
+l0
+L38
+V]38Rl@>^FAdgkcR[2OOF22
+!s100 K0bA=C]W2b<@o3Kk>9XC21
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1580785176
+!i10b 1
+Z15 !s108 1580785176.000000
+Z16 !s90 -work|work|JogoReacao_v1.vho|
+Z17 !s107 JogoReacao_v1.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 15 controladorjogo 0 22 ]38Rl@>^FAdgkcR[2OOF22
+l142
+L81
+V5UN=hV7bT_P;eTHb4bE0e1
+!s100 k0UN6g624zn:]Q?ZQWe880
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Econtroladorjogo_vhd_vec_tst
+Z20 w1580785174
+R8
+R9
+R0
+Z21 8Waveform7.vwf.vht
+Z22 FWaveform7.vwf.vht
+l0
+L31
+V5llz]M3F]_U51O7dJ9_U^0
+!s100 Ea:9dGX0?_McUDBY5[4c?0
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform7.vwf.vht|
+Z24 !s107 Waveform7.vwf.vht|
+!i113 1
+R18
+R19
+Acontroladorjogo_arch
+R8
+R9
+DEx4 work 27 controladorjogo_vhd_vec_tst 0 22 5llz]M3F]_U51O7dJ9_U^0
+l72
+L33
+V[cE[b:[:6lGG^^c4RSdI@3
+!s100 >0]oigWQ?:2269Y5fjYaB0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
+Ejogoreacao_v1
+Z25 w1580786424
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R0
+R11
+R12
+l0
+L38
+VXB^E;W[?`HlLcTCbn4n[40
+!s100 _2Md_LAEfoN0jTeHJzRiR1
+R13
+32
+Z26 !s110 1580786425
+!i10b 1
+Z27 !s108 1580786425.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 13 jogoreacao_v1 0 22 XB^E;W[?`HlLcTCbn4n[40
+l291
+L90
+VEaXX_ALo;E2D>==[aTe[D1
+!s100 g1?HemYKNF>n^VOgOjHBK0
+R13
+32
+R26
+!i10b 1
+R27
+R16
+R17
+!i113 1
+R18
+R19
+Ejogoreacao_v1_vhd_vec_tst
+Z28 w1580786422
+R8
+R9
+R0
+Z29 8Waveform4.vwf.vht
+Z30 FWaveform4.vwf.vht
+l0
+L31
+VCZG^Ii84hI?cEHO2H4T[z1
+!s100 Kd_f:L2P4n[EN3aJU12bb1
+R13
+32
+R26
+!i10b 1
+R27
+Z31 !s90 -work|work|Waveform4.vwf.vht|
+Z32 !s107 Waveform4.vwf.vht|
+!i113 1
+R18
+R19
+Ajogoreacao_v1_arch
+R8
+R9
+Z33 DEx4 work 25 jogoreacao_v1_vhd_vec_tst 0 22 CZG^Ii84hI?cEHO2H4T[z1
+l66
+L33
+V7`PE7mGHR?ic>9WT8X91z2
+!s100 hKc6R49FKUmQJFfHo28E<0
+R13
+32
+R26
+!i10b 1
+R27
+R31
+R32
+!i113 1
+R18
+R19
+Emedidor_largura
+Z34 w1580729034
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R0
+R11
+R12
+l0
+L38
+VNj]IE:U0Za?fQ8?emVbFZ1
+!s100 AaJ?<zRVbI7NjTh<o<_h=2
+R13
+32
+Z35 !s110 1580729034
+!i10b 1
+Z36 !s108 1580729034.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 15 medidor_largura 0 22 Nj]IE:U0Za?fQ8?emVbFZ1
+l233
+L109
+VjWcK`=Rh72:S;=13Zc>GO2
+!s100 eGaHHcShfCI0]j[9?`AOe3
+R13
+32
+R35
+!i10b 1
+R36
+R16
+R17
+!i113 1
+R18
+R19
+Emedidor_largura_vhd_vec_tst
+Z37 w1580729032
+R8
+R9
+R0
+Z38 8Waveform5.vwf.vht
+Z39 FWaveform5.vwf.vht
+l0
+L31
+Vf00`S]?TocI35^_R]:dle3
+!s100 [[gkYAFZnSkN<0XB_zCIm2
+R13
+32
+R35
+!i10b 1
+R36
+Z40 !s90 -work|work|Waveform5.vwf.vht|
+Z41 !s107 Waveform5.vwf.vht|
+!i113 1
+R18
+R19
+Amedidor_largura_arch
+R8
+R9
+DEx4 work 27 medidor_largura_vhd_vec_tst 0 22 f00`S]?TocI35^_R]:dle3
+l70
+L33
+V`CVU`TLonidMnC9B:mZID2
+!s100 Jz>lbi7BQ_eWhL_FM2_RW2
+R13
+32
+R35
+!i10b 1
+R36
+R40
+R41
+!i113 1
+R18
+R19

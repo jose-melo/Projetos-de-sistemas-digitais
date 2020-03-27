@@ -1,0 +1,135 @@
+Archive Project report for Formex_v2
+Fri Mar 27 00:14:09 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Fri Mar 27 00:14:09 2020 ;
+; Revision Name          ; Formex_v2                             ;
+; Top-level Entity Name  ; Formex_v2                             ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Warning: Excluding 'Automatically detected source files' The Quartus Prime software may not be able to automatically locate all project files.
+Info: Parsing: comparador_nbits.vhd
+Info: Parsing: comparador_bcd.vhd
+Info: Parsing: comparador_7485.vhd
+Info: Parsing: somador_decimal_4digitos.vhd
+Info: Parsing: somador_decimal.vhd
+Info: Parsing: somador_completo.vhd
+Info: Parsing: somador_4bits_estrutural.vhd
+Info: Parsing: RNG.vhd
+Info: Parsing: registrador16bits.vhd
+Info: Parsing: mux4x1_nbits.vhd
+Info: Parsing: mux2x1_nbits.vhd
+Info: Parsing: medidor_largura.vhd
+Info: Parsing: latch_sr.vhd
+Info: Parsing: JogoReacao_v1.vhd
+Info: Parsing: InterfaceMedidor.vhd
+Info: Parsing: interface_leds_botoes_v2.vhd
+Info: Parsing: interface_FSM_v4.vhd
+Info: Parsing: hexa7seg.vhd
+Info: Parsing: geraPulse.vhd
+Info: Parsing: gera_vaium.vhd
+Info: Parsing: Formex.vhd
+Info: Parsing: controladorJogo.vhd
+Info: Parsing: controladorFinal.vhd
+Info: Parsing: controlador.vhd
+Info: Parsing: contador_modm.vhd
+Info: Parsing: contador_162.vhd
+Info: Parsing: contador16bits_mod10.vhd
+Info: Parsing: Formex_v2.vhd
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory /home/jose/Desktop/LabDig/Projeto3-2/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '/home/jose/Desktop/LabDig/Projeto3-2/Formex_v2.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Formex_v2.archive.rpt'
+Info (23030): Evaluation of Tcl script /home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 1052 megabytes
+    Info: Processing ended: Fri Mar 27 00:14:09 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------+
+; Files Archived               ;
++------------------------------+
+; File Name                    ;
++------------------------------+
+; assignment_defaults.qdf      ;
+; comparador_7485.vhd          ;
+; comparador_bcd.vhd           ;
+; comparador_nbits.vhd         ;
+; contador16bits_mod10.vhd     ;
+; contador_162.vhd             ;
+; contador_modm.vhd            ;
+; controlador.vhd              ;
+; controladorFinal.vhd         ;
+; controladorJogo.vhd          ;
+; Formex.vhd                   ;
+; Formex_v2.qpf                ;
+; Formex_v2.qsf                ;
+; Formex_v2.vhd                ;
+; gera_vaium.vhd               ;
+; geraPulse.vhd                ;
+; hexa7seg.vhd                 ;
+; interface_FSM_v4.vhd         ;
+; interface_leds_botoes_v2.vhd ;
+; InterfaceMedidor.vhd         ;
+; JogoReacao_v1.vhd            ;
+; latch_sr.vhd                 ;
+; medidor_largura.vhd          ;
+; mux2x1_nbits.vhd             ;
+; mux4x1_nbits.vhd             ;
+; registrador16bits.vhd        ;
+; RNG.vhd                      ;
+; somador_4bits_estrutural.vhd ;
+; somador_completo.vhd         ;
+; somador_decimal.vhd          ;
+; somador_decimal_4digitos.vhd ;
++------------------------------+
+
+

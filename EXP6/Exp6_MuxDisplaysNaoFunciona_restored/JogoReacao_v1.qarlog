@@ -1,0 +1,42 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1.qar
+Date:		Mon Mar  2 11:09:50 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/InterfaceMedidor.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1.qpf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1.qsf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/JogoReacao_v1_assignment_defaults.qdf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/TesteMux.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/TesteMux3Ciclos.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform2.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform3.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform4.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform5.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform6.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform7.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/Waveform8.vwf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/assignment_defaults.qdf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/contador16bits_mod10.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/contador_162.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/contador_modm.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/controlador.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/controladorJogo.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/geraPulse.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/hexa7seg.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/interface_FSM_v4.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/interface_leds_botoes_v2.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/latch_sr.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/medidor_largura.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/mux2x1_nbits.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/mux4x1_nbits.vhd
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/output_files/Chain1.cdf
+/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/registrador16bits.vhd
+	======= Total: 31 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

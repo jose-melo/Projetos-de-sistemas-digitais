@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP5/ProjetoP1/JogoReacao_v1.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP5/ProjetoP1/JogoReacao_v1.qar
+Date:		Mon Feb  3 17:40:51 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/InterfaceMedidor.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/JogoReacao_v1.qpf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/JogoReacao_v1.qsf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/JogoReacao_v1.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/Waveform.vwf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/Waveform2.vwf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/Waveform3.vwf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/Waveform4.vwf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/Waveform5.vwf
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/contador16bits_mod10.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/contador_162.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/contador_modm.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/controlador.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/controladorJogo.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/geraPulse.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/hexa7seg.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/interface_FSM_v4.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/interface_leds_botoes_v2.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/latch_sr.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/medidor_largura.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/mux2x1_nbits.vhd
+/home/jose/Desktop/LabDig/EXP5/ProjetoP1/registrador16bits.vhd
+/home/jose/intelFPGA/18.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

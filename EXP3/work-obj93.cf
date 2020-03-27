@@ -1,0 +1,16 @@
+v 4
+file . "medidor_largura.vhd" "4929aee5c7b8cf69ec00bbe846704a40b83ad42f" "20200121011703.524":
+  entity medidor_largura at 1( 0) + 0 on 19;
+  architecture medidor_largura_arch of medidor_largura at 21( 525) + 0 on 20;
+file . "registrador8bits.vhd" "403c9bfcd8adbade1f4fa428db86cf287d276e33" "20200121011154.249":
+  entity registrador8bits at 14( 597) + 0 on 15;
+  architecture comportamental of registrador8bits at 25( 908) + 0 on 16;
+file . "controlador.vhd" "7c37e57a68b7ea65824ec6a69ee08e165f931bb9" "20200121011146.646":
+  entity controlador at 21( 909) + 0 on 11;
+  architecture controlador_arch of controlador at 33( 1252) + 0 on 12;
+file . "hexa7seg.vhd" "d3d0d5991720da31616f7dd91840444fab2882d1" "20200121011150.804":
+  entity hexa7seg at 21( 940) + 0 on 13;
+  architecture comportamental of hexa7seg at 31( 1142) + 0 on 14;
+file . "contador8bits (6).vhd" "5b609055706fef2fdd646741b5540fe828558d7e" "20200121011235.797":
+  entity contador8bits at 15( 636) + 0 on 17;
+  architecture estrutural of contador8bits at 29( 955) + 0 on 18;

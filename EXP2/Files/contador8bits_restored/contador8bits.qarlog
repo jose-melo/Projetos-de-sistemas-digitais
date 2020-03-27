@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qarlog
+
+Archive:	/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qar
+Date:		Mon Jan 13 20:55:57 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/assignment_defaults.qdf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qpf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.qsf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.vhd
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador8bits.vwf
+/home/jose/Desktop/LabDig/EXP2/Files/contador8bits_restored/contador_163.vhd
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

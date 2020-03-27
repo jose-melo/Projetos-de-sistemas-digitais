@@ -1,0 +1,164 @@
+|interface_leds_botoes_v2
+clock => contador_modm:CONT_INICIO.clock
+clock => interface_FSM_v4:FSM.clock
+clock => db_clock.DATAIN
+reset => latch_sr:LATCH.r
+reset => interface_FSM_v4:FSM.reset
+iniciar => interface_FSM_v4:FSM.iniciar
+resposta => latch_sr:LATCH.s
+resposta => interface_FSM_v4:FSM.resposta
+ligado << interface_FSM_v4:FSM.ligado
+estimulo << interface_FSM_v4:FSM.estimulo_sin
+pulso << geraPulse:PULSE.pulso
+erro << interface_FSM_v4:FSM.erro_sin
+pronto << interface_FSM_v4:FSM.pronto
+estado[0] << hexa7seg:DISPLAY_ESTADOS.sseg[0]
+estado[1] << hexa7seg:DISPLAY_ESTADOS.sseg[1]
+estado[2] << hexa7seg:DISPLAY_ESTADOS.sseg[2]
+estado[3] << hexa7seg:DISPLAY_ESTADOS.sseg[3]
+estado[4] << hexa7seg:DISPLAY_ESTADOS.sseg[4]
+estado[5] << hexa7seg:DISPLAY_ESTADOS.sseg[5]
+estado[6] << hexa7seg:DISPLAY_ESTADOS.sseg[6]
+db_clock << clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro << interface_FSM_v4:FSM.erro_sin
+db_estimulo << interface_FSM_v4:FSM.estimulo_sin
+
+
+|interface_leds_botoes_v2|contador_modm:CONT_INICIO
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+zera => IQ[0].ACLR
+zera => IQ[1].ACLR
+zera => IQ[2].ACLR
+zera => IQ[3].ACLR
+conta => IQ[0].ENA
+conta => IQ[3].ENA
+conta => IQ[2].ENA
+conta => IQ[1].ENA
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|latch_sr:LATCH
+s => iq.IN0
+r => iq.IN1
+r => comb.IN1
+r => comb.IN1
+q <= iq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|geraPulse:PULSE
+estimulo => pulso.IN0
+ligado => pulso.IN1
+resp_latch => pulso.OUTPUTSELECT
+resp_latch => pulso.IN1
+pulso <= pulso.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|Interface_FSM_v4:FSM
+clock => db_clock.DATAIN
+clock => Ereg~1.DATAIN
+reset => Ereg~3.DATAIN
+iniciar => Selector0.IN3
+iniciar => Eprox.INICIAL.DATAB
+resposta => Eprox.DATAA
+resposta => Eprox.ESPERA.DATAB
+resposta => Eprox.DATAA
+resposta => Selector2.IN1
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Selector2.IN3
+erro_sin <= erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+estimulo_sin <= estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+ligado <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+zera_ci <= zera_ci.DB_MAX_OUTPUT_PORT_TYPE
+conta_ci <= conta_ci.DB_MAX_OUTPUT_PORT_TYPE
+pronto <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+estado[0] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro_sin <= db_erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+db_estimulo_sin <= db_estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|hexa7seg:DISPLAY_ESTADOS
+hexa[0] => Equal0.IN3
+hexa[0] => Equal1.IN0
+hexa[0] => Equal2.IN3
+hexa[0] => Equal3.IN1
+hexa[0] => Equal4.IN3
+hexa[0] => Equal5.IN1
+hexa[0] => Equal6.IN3
+hexa[0] => Equal7.IN2
+hexa[0] => Equal8.IN3
+hexa[0] => Equal9.IN1
+hexa[0] => Equal10.IN3
+hexa[0] => Equal11.IN2
+hexa[0] => Equal12.IN3
+hexa[0] => Equal13.IN2
+hexa[0] => Equal14.IN3
+hexa[0] => Equal15.IN3
+hexa[1] => Equal0.IN2
+hexa[1] => Equal1.IN3
+hexa[1] => Equal2.IN0
+hexa[1] => Equal3.IN0
+hexa[1] => Equal4.IN2
+hexa[1] => Equal5.IN3
+hexa[1] => Equal6.IN1
+hexa[1] => Equal7.IN1
+hexa[1] => Equal8.IN2
+hexa[1] => Equal9.IN3
+hexa[1] => Equal10.IN1
+hexa[1] => Equal11.IN1
+hexa[1] => Equal12.IN2
+hexa[1] => Equal13.IN3
+hexa[1] => Equal14.IN2
+hexa[1] => Equal15.IN2
+hexa[2] => Equal0.IN1
+hexa[2] => Equal1.IN2
+hexa[2] => Equal2.IN2
+hexa[2] => Equal3.IN3
+hexa[2] => Equal4.IN0
+hexa[2] => Equal5.IN0
+hexa[2] => Equal6.IN0
+hexa[2] => Equal7.IN0
+hexa[2] => Equal8.IN1
+hexa[2] => Equal9.IN2
+hexa[2] => Equal10.IN2
+hexa[2] => Equal11.IN3
+hexa[2] => Equal12.IN1
+hexa[2] => Equal13.IN1
+hexa[2] => Equal14.IN1
+hexa[2] => Equal15.IN1
+hexa[3] => Equal0.IN0
+hexa[3] => Equal1.IN1
+hexa[3] => Equal2.IN1
+hexa[3] => Equal3.IN2
+hexa[3] => Equal4.IN1
+hexa[3] => Equal5.IN2
+hexa[3] => Equal6.IN2
+hexa[3] => Equal7.IN3
+hexa[3] => Equal8.IN0
+hexa[3] => Equal9.IN0
+hexa[3] => Equal10.IN0
+hexa[3] => Equal11.IN0
+hexa[3] => Equal12.IN0
+hexa[3] => Equal13.IN0
+hexa[3] => Equal14.IN0
+hexa[3] => Equal15.IN0
+sseg[0] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= sseg.DB_MAX_OUTPUT_PORT_TYPE
+
+

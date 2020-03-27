@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jose/Desktop/LabDig/EXP2/Files/contador_163_restored/simulation/qsim
+vcontador_163
+Z1 !s110 1579091722
+!i10b 1
+!s100 NO2keU74`JJDdTG6la;KC3
+IU9J67@Pz?=7?=jOBk]D`n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1579091718
+8contador_163.vo
+Fcontador_163.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1579091721.000000
+!s107 contador_163.vo|
+!s90 -work|work|contador_163.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vcontador_163_vlg_vec_tst
+R1
+!i10b 1
+!s100 >HXzo@EH7<G<hb20E0DEG3
+IDNK9F;jhmHF_P4gnG1Q[L3
+R2
+R0
+w1579091717
+8WaveContador163.vwf.vt
+FWaveContador163.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1579091722.000000
+!s107 WaveContador163.vwf.vt|
+!s90 -work|work|WaveContador163.vwf.vt|
+!i113 1
+R4
+R5

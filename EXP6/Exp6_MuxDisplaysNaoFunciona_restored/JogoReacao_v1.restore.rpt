@@ -1,0 +1,120 @@
+Restore Archived Project report for JogoReacao_v1
+Mon Mar  2 09:20:13 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Mar  2 09:20:13 2020 ;
+; Revision Name                   ; JogoReacao_v1                         ;
+; Top-level Entity Name           ; JogoReacao_v1                         ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona.qar' into the '/home/jose/Desktop/LabDig/EXP6/Exp6_MuxDisplaysNaoFunciona_restored/' directory
+Info: Generated report 'JogoReacao_v1.restore.rpt'
+Info (23030): Evaluation of Tcl script /home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1048 megabytes
+    Info: Processing ended: Mon Mar  2 09:20:13 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------------+
+; Files Restored                         ;
++----------------------------------------+
+; File Name                              ;
++----------------------------------------+
+; qar_info.json                          ;
+; InterfaceMedidor.vhd                   ;
+; JogoReacao_v1.qpf                      ;
+; JogoReacao_v1.qsf                      ;
+; JogoReacao_v1.restore.rpt              ;
+; JogoReacao_v1.vhd                      ;
+; JogoReacao_v1_assignment_defaults.qdf  ;
+; Waveform.vwf                           ;
+; Waveform2.vwf                          ;
+; Waveform3.vwf                          ;
+; Waveform4.vwf                          ;
+; Waveform5.vwf                          ;
+; Waveform6.vwf                          ;
+; Waveform7.vwf                          ;
+; Waveform8.vwf                          ;
+; assignment_defaults.qdf                ;
+; c5_pin_model_dump.txt                  ;
+; contador16bits_mod10.vhd               ;
+; contador_162.vhd                       ;
+; contador_modm.vhd                      ;
+; controlador.vhd                        ;
+; controladorJogo.vhd                    ;
+; geraPulse.vhd                          ;
+; hexa7seg.vhd                           ;
+; interface_FSM_v4.vhd                   ;
+; interface_leds_botoes_v2.vhd           ;
+; latch_sr.vhd                           ;
+; medidor_largura.vhd                    ;
+; mux2x1_nbits.vhd                       ;
+; mux4x1_nbits.vhd                       ;
+; output_files/Chain1.cdf                ;
+; output_files/JogoReacao_v1.asm.rpt     ;
+; output_files/JogoReacao_v1.done        ;
+; output_files/JogoReacao_v1.eda.rpt     ;
+; output_files/JogoReacao_v1.fit.rpt     ;
+; output_files/JogoReacao_v1.fit.smsg    ;
+; output_files/JogoReacao_v1.fit.summary ;
+; output_files/JogoReacao_v1.flow.rpt    ;
+; output_files/JogoReacao_v1.jdi         ;
+; output_files/JogoReacao_v1.map.rpt     ;
+; output_files/JogoReacao_v1.map.summary ;
+; output_files/JogoReacao_v1.pin         ;
+; output_files/JogoReacao_v1.sld         ;
+; output_files/JogoReacao_v1.sof         ;
+; output_files/JogoReacao_v1.sta.rpt     ;
+; output_files/JogoReacao_v1.sta.summary ;
+; registrador16bits.vhd                  ;
++----------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

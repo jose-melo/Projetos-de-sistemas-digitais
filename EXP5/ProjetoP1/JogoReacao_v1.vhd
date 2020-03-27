@@ -1,0 +1,142 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+
+entity JogoReacao_v1 is
+	port(
+
+		jogar     : in std_logic;
+		resposta  : in std_logic;
+		reset	  : in std_logic;
+		clock 	  : in std_logic;
+		ligado	  : out std_logic;
+		pulso 	  : out std_logic;
+		estimulo  : out std_logic;
+		erro	  : out std_logic;
+		pronto	  : out std_logic;
+		tempo 	  : out std_logic_vector(15 downto 0);
+		db_PInter, db_PMed : out std_logic;
+		db_estado : out std_logic_vector(3 downto 0)
+	);
+end entity;
+
+architecture JogoReacao_arch of JogoReacao_v1 is
+
+	component interface_leds_botoes_v2 is
+		port (
+			clock    : in  std_logic;
+			reset    : in  std_logic;
+			iniciar  : in  std_logic;
+			resposta : in  std_logic;
+			ligado   : out std_logic;
+			estimulo : out std_logic;
+			pulso    : out std_logic;
+			erro     : out std_logic;
+			pronto   : out std_logic;
+			estado   : out STD_LOGIC_VECTOR(6 downto 0);
+			db_clock    : out STD_LOGIC;    -- sinais
+			db_erro     : out STD_LOGIC;    -- de
+			db_estimulo : out STD_LOGIC     -- depuração
+		);
+	end component interface_leds_botoes_v2;
+
+	component medidor_largura is
+		port(
+			clock, reset : in  std_logic;
+			liga, sinal  : in  std_logic;
+			display0     : out std_logic_vector(3 downto 0);	--digito 0
+			display1     : out std_logic_vector(3 downto 0);	--digito 1
+			display2     : out std_logic_vector(3 downto 0);	--digito 2
+			display3     : out std_logic_vector(3 downto 0);	--digito 3
+			display5     : out std_logic_vector(6 downto 0);	--estado
+			fim          : out std_logic;
+			pronto       : out std_logic;
+			db_largura   : out std_logic_vector(15 downto 0);	-- sinais
+			db_clock     : out std_logic;						-- de
+			db_zeraCont  : out std_logic;						-- depuração
+			db_contacont : out std_logic
+		);
+	end component medidor_largura;
+
+	component controladorJogo is
+	port(
+
+		jogar 	 : in std_logic;
+		clock 	 : in std_logic;
+		reset 	 : in std_logic;
+		erroInterface : in std_logic;
+		prontoInterface : in std_logic;
+		prontoMedidor : in std_logic;
+		fimEspera	  : in std_logic;
+		fimContador	  : in std_logic;
+		estado		  : out std_logic_vector(3 downto 0);
+		ligaEspera	  : out std_logic;
+		ligaInterface : out std_logic;
+		ligaMedidor	  : out std_logic;
+		reset_out : out std_logic;
+		ligado : out std_logic;
+		pronto : out std_logic;
+		saidaErro : out std_logic
+	);
+	end component;
+
+	component mux2x1_nbits is
+	    generic (
+	        N: integer := 4
+	    );
+	    port (
+	        A, B: in  std_logic_vector (N-1 downto 0);
+	        S:    in  std_logic;
+	        Y:    out std_logic_vector (N-1 downto 0)
+	    );
+	end component;
+
+	signal display0_in  : std_logic_vector(3 downto 0);	
+	signal display1_in  : std_logic_vector(3 downto 0);	
+	signal display2_in  : std_logic_vector(3 downto 0);	
+	signal display3_in  : std_logic_vector(3 downto 0);
+	signal fim_in, erroInterface_in, prontoInterface_in, prontoMedidor_in, fimEspera_in, fimContador_in: std_logic;
+	signal ligaEspera_in, ligaInterface_in, ligaMedidor_in, pulso_in, saidaErro_in: std_logic;
+	signal tempo_in: std_logic_vector(15 downto 0);
+	signal reset_in, reset_in2 : std_logic;
+begin
+
+	
+	INTERFACE: interface_leds_botoes_v2 port map(clock, reset_in2, ligaInterface_in, resposta, open, estimulo, pulso_in,
+	erroInterface_in, prontoInterface_in, open, open, open, open);
+
+	pulso <= pulso_in;
+
+	reset_in2 <= reset or reset_in;
+
+	MEDIDOR: medidor_largura port map(clock, reset_in2, ligaMedidor_in, pulso_in, display0_in, display1_in, 
+		display2_in, display3_in, open, fim_in, prontoMedidor_in, open, open, open, open);
+
+
+	CONTROLADOR: controladorJogo port map(jogar, clock, reset, erroInterface_in, prontoInterface_in,
+		prontoMedidor_in, '0', fim_in, db_estado, open, ligaInterface_in, ligaMedidor_in,
+		reset_in, ligado, pronto, saidaErro_in);
+
+	tempo_in(3 downto 0) <= display0_in;
+	tempo_in(7 downto 4) <= display1_in;
+	tempo_in(11 downto 8) <= display2_in;
+	tempo_in(15 downto 12) <= display3_in;
+
+	--tempo <= tempo_in;
+	
+	MUX: mux2x1_nbits generic map(16) port map(tempo_in, "1001100110011001", saidaErro_in, tempo);
+
+	erro <= saidaErro_in;
+
+	db_PInter <= prontoInterface_in;
+	db_PMed <= prontoMedidor_in;
+	
+	--DIS3: hexa7seg port map(display3_interno, display3);
+	--DIS2: hexa7seg port map(display2_interno, display2);
+	--DIS1: hexa7seg port map(display1_interno, display1);	-- Conexão da saída aos displays de 7 segmentos
+	--DIS0: hexa7seg port map(display0_interno, display0);
+
+
+end architecture;
+

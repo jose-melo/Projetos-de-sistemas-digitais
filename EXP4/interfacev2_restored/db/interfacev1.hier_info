@@ -1,0 +1,79 @@
+|interface_leds_botoes_v2
+clock => contador_modm:CONT_INICIO.clock
+clock => interface_FSM_v4:FSM.clock
+clock => db_clock.DATAIN
+reset => reset_interno.IN0
+reset => interface_FSM_v4:FSM.reset
+iniciar => interface_FSM_v4:FSM.iniciar
+resposta => reset_interno.IN1
+resposta => interface_FSM_v4:FSM.resposta
+ligado <= interface_FSM_v4:FSM.ligado
+estimulo <= interface_FSM_v4:FSM.estimulo_sin
+pulso <= latch_sr:LATCH.q
+erro <= interface_FSM_v4:FSM.erro_sin
+pronto <= interface_FSM_v4:FSM.pronto
+estado[0] <= interface_FSM_v4:FSM.estado[0]
+estado[1] <= interface_FSM_v4:FSM.estado[1]
+estado[2] <= interface_FSM_v4:FSM.estado[2]
+estado[3] <= interface_FSM_v4:FSM.estado[3]
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro <= interface_FSM_v4:FSM.erro_sin
+db_estimulo <= interface_FSM_v4:FSM.estimulo_sin
+
+
+|interface_leds_botoes_v2|contador_modm:CONT_INICIO
+clock => IQ[0].CLK
+clock => IQ[1].CLK
+clock => IQ[2].CLK
+clock => IQ[3].CLK
+zera => IQ[0].ACLR
+zera => IQ[1].ACLR
+zera => IQ[2].ACLR
+zera => IQ[3].ACLR
+conta => IQ[0].ENA
+conta => IQ[3].ENA
+conta => IQ[2].ENA
+conta => IQ[1].ENA
+Q[0] <= IQ[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= IQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= IQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= IQ[3].DB_MAX_OUTPUT_PORT_TYPE
+fim <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|latch_sr:LATCH
+s => iq.IN0
+r => iq.IN1
+r => comb.IN1
+r => comb.IN1
+q <= iq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|interface_leds_botoes_v2|Interface_FSM_v4:FSM
+clock => db_clock.DATAIN
+clock => Ereg~1.DATAIN
+reset => Ereg~3.DATAIN
+iniciar => Selector0.IN3
+iniciar => Eprox.INICIAL.DATAB
+resposta => Eprox.DATAA
+resposta => Eprox.ESPERA.DATAB
+resposta => Eprox.DATAA
+resposta => Selector2.IN1
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Eprox.OUTPUTSELECT
+contagem_inicial => Selector2.IN3
+erro_sin <= erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+estimulo_sin <= estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+ligado <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+zera_ci <= zera_ci.DB_MAX_OUTPUT_PORT_TYPE
+conta_ci <= conta_ci.DB_MAX_OUTPUT_PORT_TYPE
+pronto <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+estado[0] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado.DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+db_clock <= clock.DB_MAX_OUTPUT_PORT_TYPE
+db_erro_sin <= db_erro_sin.DB_MAX_OUTPUT_PORT_TYPE
+db_estimulo_sin <= db_estimulo_sin.DB_MAX_OUTPUT_PORT_TYPE
+
+

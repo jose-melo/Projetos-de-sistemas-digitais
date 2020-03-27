@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, /home/jose/Desktop/LabDig/Teste/Teste.bdf
+source_file = 1, /home/jose/Desktop/LabDig/Teste/Teste.vwf
+source_file = 1, /home/jose/Desktop/LabDig/Teste/db/Teste.cbx.xml
+design_name = Teste
+instance = comp, \Y~output\, Y~output, Teste, 1
+instance = comp, \C~input\, C~input, Teste, 1
+instance = comp, \B~input\, B~input, Teste, 1
+instance = comp, \A~input\, A~input, Teste, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Teste, 1

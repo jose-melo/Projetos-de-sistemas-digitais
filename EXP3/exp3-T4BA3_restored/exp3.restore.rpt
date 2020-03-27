@@ -1,0 +1,88 @@
+Restore Archived Project report for exp3
+Wed Jan 22 10:00:54 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Jan 22 10:00:54 2020 ;
+; Revision Name                   ; exp3                                  ;
+; Top-level Entity Name           ; medidor_largura                       ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Error (114007): Database file /home/jose/Desktop/LabDig/EXP3/exp3-T4BA3_restored/db/exp3.cmp.rdb corrupted. Database error: Unexpected EOF
+Error (114007): Database file /home/jose/Desktop/LabDig/EXP3/exp3-T4BA3_restored/db/exp3.cmp.rdb corrupted. Database error: Unexpected EOF
+Info: Successfully restored '/home/jose/Desktop/LabDig/EXP3/exp3-T4BA3.qar' into the '/home/jose/Desktop/LabDig/EXP3/exp3-T4BA3_restored/' directory
+Info: Generated report 'exp3.restore.rpt'
+Error (23031): Evaluation of Tcl script /home/jose/intelFPGA/18.0/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 3 errors, 14 warnings
+    Error: Peak virtual memory: 1048 megabytes
+    Error: Processing ended: Wed Jan 22 10:00:54 2020
+    Error: Elapsed time: 00:00:02
+    Error: Total CPU time (on all processors): 00:00:01
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
++-------------------------+
+; Files Not Restored      ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; qar_info.json           ;
+; Waveform.vwf            ;
+; Waveform1.vwf           ;
+; Waveform2.vwf           ;
+; contador8bits (6).vhd   ;
+; contador_163 (1).vhd    ;
+; controlador.vhd         ;
+; exp3.qpf                ;
+; exp3.qsf                ;
+; hexa7seg.vhd            ;
+; medidor_largura.vhd     ;
+; registrador8bits.vhd    ;
+; assignment_defaults.qdf ;
++-------------------------+
+
+
